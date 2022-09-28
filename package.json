@@ -1,0 +1,27 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "sass-watch": " sass --no-source-map --watch public/scss/style.scss  public/stylesheets/style.css"
+  },
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "ajv-errors": "^3.0.0",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^4.4.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-handlebars": "^6.0.6",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "node-sass": "^7.0.3",
+    "node-sass-middleware": "^1.0.1",
+    "pug": "2.0.0-beta11",
+    "sass": "^1.54.9",
+    "share-buttons": "^1.9.0"
+  }
+}

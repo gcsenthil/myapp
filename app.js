@@ -18,7 +18,7 @@ var app = express();
 
 app.engine('hbs', exphbs.engine({
   defaultLayout: 'main',
-  helpers: require(__dirname +"\\public\\javascripts\\helpers.js").helpers,
+  helpers: require(__dirname +"/public/javascripts/helpers.js").helpers,
   extname: '.hbs'
 }));
 

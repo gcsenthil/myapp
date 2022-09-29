@@ -1,10 +1,11 @@
 var express = require('express');
 var path = require('path');
 var router = express.Router();
+var base_path = __basedir
 
 router.get('/', function(req, res, next) {   
     try {       
-    var newsdata= require(__dirname +'/data/news.json')    
+    var newsdata= require(base_path +'/data/news.json')    
     var selectednews;
     for(i=0;i<newsdata.news.all.length;i++){   
       console.log(newsdata.news.all[i].id + " ="+req.query.id) 

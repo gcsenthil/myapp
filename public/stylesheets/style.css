@@ -10626,6 +10626,12 @@ a, a:hover {
   color: black;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .news h1 {
   text-align: center;
 }

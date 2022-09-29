@@ -4,7 +4,7 @@ var router = express.Router();
 
 router.get('/', function(req, res, next) {   
     try {       
-  var videosdata= require(__dirname +'/data/youtube.json')  
+  var videosdata= require(__basedir +'/data/youtube.json')  
  
 
   if(videosdata.videos[req.query.id]!=null)  {

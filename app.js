@@ -73,6 +73,9 @@ app.engine('hbs', exphbs.engine({
   helpers: require(__dirname +"/public/javascripts/helpers.js").helpers,
   extname: '.hbs'
 }));
+app.get('/google220272e67ddc9ed9.html',  (req, res) => {
+  res.send(__basedir+"/google220272e67ddc9ed9.html");
+});
 
 app.set('view engine', 'hbs');
 app.use('/photos', Gallery('public/images/gallery/DurgaPuja', options));

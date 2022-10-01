@@ -105,9 +105,10 @@ header {
   .navbar-bottom {
     padding-bottom: 24px;
     .logo-text span{
-      font-size: 28px;
-      color:white;
-      font-family: mistral;
+      font-size: 22px;
+      a{
+      color:red;
+      }
     }
     @media (max-width: 999px) {
       padding-top: 24px;

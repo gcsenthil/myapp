@@ -1,16 +1,19 @@
   <div class="flash-news-banner">
           <div class="container">
             <div class="d-lg-flex align-items-center justify-content-between">
-              <div class="d-flex align-items-center">
+              <div class="d-flex align-items-center mqstyle">
                 <span class="badge badge-dark mr-3">Flash news</span>
-                <p class="mb-0">
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s.
-                </p>
+                 <p class="mb-0" onclick="window.location.href = '/allnews?category=NEH Report'">
+      <marquee >
+       Northeast Herald starts its journey on auspicious day of Maha Shasti.   Northeast Herald extend its greetings and wishes of Durga Puja to all viewers, well wishers.
+        
+        </marquee>
+    </p>
+               
               </div>
               <div class="d-flex">
-                <span class="mr-3 text-danger">Wed, March 4, 2020</span>
-                <span class="text-danger">30°C,London</span>
+                <span class="mr-3 text-danger">{{dateFormat now "dddd, MMM Do YYYY"}}</span>
+                <span class="text-danger">32°C,Agartala</span>
               </div>
             </div>
           </div>

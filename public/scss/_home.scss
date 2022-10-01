@@ -1,5 +1,5 @@
 .banner-image{
-    background-image: url('https://via.placeholder.com/1105x301.png?text=Banner Image');
+  /*  background-image: url('/images/dashboard/durgapuja.webp');
     width: 100%;
     height: 310px;
     @media (max-width: 999px) {      
@@ -9,21 +9,15 @@
         height: 130px;
         background-image: url('https://via.placeholder.com/330x130.png?text=Banner Image');
     }
-
+*/
 
 }
 .advertisements{
-    padding: 1rem 1rem!important;
-.ad1{
-    background-image: url(https://via.placeholder.com/200x300.png?text=Ad1);
-    height: 300px;
-    margin-bottom: 10px;
-}
-.ad2{
-    background-image: url(https://via.placeholder.com/200x300.png?text=Ad2);
-    height: 300px;
-}
 
+    padding: 1rem 1rem!important;
+     img{
+width: 100%;
+}
 }
 
 .news-a{
@@ -54,7 +48,13 @@ a,a:hover{
     }
 }
 
-
+marquee{
+    color: #d1011c;
+    font-weight: 600;
+}
+.mqstyle{
+    width:74%;
+}
 .center-block {
     display: block;
     margin-left: auto;

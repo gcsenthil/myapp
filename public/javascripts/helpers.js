@@ -42,3 +42,5 @@ hbs.handlebars.registerHelper("latestnews", function(context, options) {
     }  
     return ret ;
   });
+
+  hbs.handlebars.registerHelper('dateFormat', require('handlebars-dateformat'));

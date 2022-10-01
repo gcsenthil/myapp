@@ -9,9 +9,12 @@ const mysql = require('mysql');
 const { SitemapStream, streamToPromise } = require('sitemap')
 const { createGzip } = require('zlib')
 const { Readable } = require('stream')
+var Gallery = require('express-photo-gallery');
 global.__basedir = __dirname
 
-
+var options = {
+  title: 'NEH Photo Gallery'
+};
 
 // Validate our settings schema
 const Ajv = require('ajv');
@@ -72,6 +75,7 @@ app.engine('hbs', exphbs.engine({
 }));
 
 app.set('view engine', 'hbs');
+app.use('/photos', Gallery('public/images/gallery/DurgaPuja', options));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

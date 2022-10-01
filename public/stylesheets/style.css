@@ -9997,7 +9997,7 @@ header .navbar-top .navbar-top-left-menu .nav-item .nav-link,
 header .navbar-top .navbar-top-right-menu .nav-item .nav-link {
   font-size: 16px;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -10052,9 +10052,10 @@ header .navbar-bottom {
   padding-bottom: 24px;
 }
 header .navbar-bottom .logo-text span {
-  font-size: 28px;
-  color: white;
-  font-family: mistral;
+  font-size: 22px;
+}
+header .navbar-bottom .logo-text span a {
+  color: red;
 }
 @media (max-width: 999px) {
   header .navbar-bottom {
@@ -10068,7 +10069,7 @@ header .navbar-bottom .logo-text span {
 }
 header .navbar-bottom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   font-weight: 600;
   font-stretch: normal;
@@ -10301,12 +10302,30 @@ header .navbar-bottom .navbar-toggler {
   background: #e6e7e8;
   padding: 60px 0;
 }
-.content-wrapper .banner-content {
+.content-wrapper .banner-top {
+  height: 100%;
   position: absolute;
   padding: 40px 60px;
   left: 0px;
   bottom: 0px;
   color: #ffffff;
+}
+@media (max-width: 999px) {
+  .content-wrapper .banner-top h1 {
+    font-size: 12px;
+  }
+}
+.content-wrapper .banner-content {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: absolute;
+  padding: 40px 60px;
+  left: 0px;
+  bottom: 0px;
+  color: #ffffff;
+}
+.content-wrapper .banner-content .overlay {
+  padding-top: 24%;
 }
 @media (max-width: 999px) {
   .content-wrapper .banner-content {
@@ -10504,8 +10523,7 @@ footer .footer-bottom {
 }
 footer .logo-text span {
   font-size: 35px;
-  color: white;
-  font-family: mistral;
+  color: red;
 }
 .error-wrap {
   width: 394px;
@@ -10573,33 +10591,24 @@ footer .logo-text span {
 }
 
 .banner-image {
-  background-image: url("https://via.placeholder.com/1105x301.png?text=Banner Image");
-  width: 100%;
-  height: 310px;
-}
-@media (max-width: 999px) {
-  .banner-image {
-    background-image: url("https://via.placeholder.com/330x130.png?text=Banner Image");
-  }
-}
-@media (max-width: 1024px) {
-  .banner-image {
-    height: 130px;
-    background-image: url("https://via.placeholder.com/330x130.png?text=Banner Image");
-  }
+  /*  background-image: url('/images/dashboard/durgapuja.webp');
+      width: 100%;
+      height: 310px;
+      @media (max-width: 999px) {      
+          background-image: url('https://via.placeholder.com/330x130.png?text=Banner Image');
+      }
+      @media (max-width: 1024px) {
+          height: 130px;
+          background-image: url('https://via.placeholder.com/330x130.png?text=Banner Image');
+      }
+  */
 }
 
 .advertisements {
   padding: 1rem 1rem !important;
 }
-.advertisements .ad1 {
-  background-image: url(https://via.placeholder.com/200x300.png?text=Ad1);
-  height: 300px;
-  margin-bottom: 10px;
-}
-.advertisements .ad2 {
-  background-image: url(https://via.placeholder.com/200x300.png?text=Ad2);
-  height: 300px;
+.advertisements img {
+  width: 100%;
 }
 
 .news-a h5 {
@@ -10624,6 +10633,15 @@ a, a:hover {
 
 .a-black a {
   color: black;
+}
+
+marquee {
+  color: #d1011c;
+  font-weight: 600;
+}
+
+.mqstyle {
+  width: 74%;
 }
 
 .center-block {

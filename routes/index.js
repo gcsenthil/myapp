@@ -5,8 +5,11 @@ var base_path = __basedir
 /* GET home page. */
 router.get('/', function(req, res, next) {
   var newsdata= require(base_path +'/data/news.json')   
-  res.render('home',{title:"Home Page",allnews:newsdata.news.all,
-  latestnews:newsdata.news.latest,flashnews:newsdata.news.flash});
+  res.render('home',{title:"Home Page",
+  allnews:newsdata.news.all,
+  latestnews:newsdata.news.latest,
+  flashnews:newsdata.news.flash,
+  global:newsdata.news.global});
 });
 
 module.exports = router;

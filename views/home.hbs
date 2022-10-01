@@ -1,32 +1,52 @@
   <div class="container">
              <div class="row" data-aos="fade-up">
               <div class="col-xl-12 stretch-card grid-margin">
-                 <div class="position-relative banner-image">                 
-                 </div>
+               <div class="card" >
+     <div class="position-relative" onclick="window.location.href = '/photos'">
+                  <img
+                    src="images/dashboard/banner2.jpeg"
+                    alt="banner"
+                    class="img-fluid"
+                  />
+                  <div class="banner-top"> 
+                    <h1 class="mb-0">{{shortTitle}}</h1>
+                    <h1 class="mb-2">
+                     Glimpses of Durga Puja, 2022 in Agartala
+                    </h1>                  
+               
+                  </div>
+                </div>
+ 
+           
+    
+</div>
               </div>
              </div>
             <div class="row" data-aos="fade-up">
               <div class="col-xl-8 stretch-card grid-margin">
-                <div class="position-relative">
+                  {{#list global}}
+                <div class="position-relative" onclick="window.location.href = '/news?id={{id}}'">
                   <img
-                    src="/images/dashboard/banner.jpg"
+                    src="images/dashboard/{{urlToImage}}"
                     alt="banner"
                     class="img-fluid"
                   />
                   <div class="banner-content">
+                   <div class="overlay">
                     <div class="badge badge-danger fs-12 font-weight-bold mb-3">
                       global news
                     </div>
-                    <h1 class="mb-0">GLOBAL PANDEMIC</h1>
+                    <h1 class="mb-0">{{shortTitle}}</h1>
                     <h1 class="mb-2">
-                      Coronavirus Outbreak LIVE Updates: ICSE, CBSE Exams
-                      Postponed, 168 Trains
+                      {{title}}
                     </h1>
                     <div class="fs-12">
-                      <span class="mr-2">Photo </span>10 Minutes ago
+                      <span class="mr-2">NEH </span>10 Minutes ago
                     </div>
                   </div>
+                  </div>
                 </div>
+                  {{/list}}
               </div>
               <div class="col-xl-4 stretch-card grid-margin">
                 <div class="card bg-dark text-white">
@@ -36,7 +56,7 @@
                       <div class="pr-3 news-a" onclick="window.location.href = '/news?id={{id}}'">
                         <h5>{{title}}</h5>
                         <div class="fs-12">
-                          <span class="mr-2">Photo </span>10 Minutes ago
+                          <span class="mr-2">NEH </span>{{publishedAt}}
                         </div>
                       </div>
                       <div class="rotate-img latest-news-home" onclick="window.location.href = '/news?id={{id}}'">
@@ -79,7 +99,7 @@
                           {{title}}
                         </h2>
                         <div class="fs-13 mb-2">
-                          <span class="mr-2">Photo</span>10 Minutes ago
+                          <span class="mr-2">NEH</span>{{publishedAt}}
                         </div>
                         <p class="mb-0 a-black">
                       {{description}}
@@ -93,10 +113,9 @@
                  <div class="col-lg-3 stretch-card grid-margin">
                   <div class="card">
                   <div class="card-body advertisements">
-                  <div class="ad1">                    
-                  </div>
-                  <div class="ad2">                    
-                  </div>
+                    
+                    <img src="images/ads/durgapuja.JPG"/>                 
+                 
                   
               </div>
               </div>
@@ -429,7 +448,7 @@
                           </div>
                           <div class="col-sm-6">
                             <div class="card-title">
-                              Celebrity news
+                              Bengali News
                             </div>
                             <div class="row">
                               <div class="col-sm-12">

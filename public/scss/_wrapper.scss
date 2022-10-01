@@ -79,12 +79,30 @@
 .content-wrapper {
   background: $content-bg;
   padding: 60px 0;
-  .banner-content {
+  .banner-top{
+    height: 100%;
     position: absolute;
     padding: 40px 60px;
     left: 0px;
     bottom: 0px;
     color: $white;
+    @media (max-width: 999px) {
+      h1{
+        font-size: 12px;
+      }
+    }
+  }
+  .banner-content {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: absolute;
+    padding: 40px 60px;
+    left: 0px;
+    bottom: 0px;
+    color: $white;
+    .overlay{
+      padding-top: 24%;
+    }
     @media (max-width: 999px) {
       padding: 12px 12px;
       h1 {

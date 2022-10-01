@@ -15,7 +15,6 @@ router.get('/', function(req, res, next) {
       }
     }
 
-    console.log(selectednews);
     if(selectednews!=null)
     res.render('news',{title:selectednews.title,
       data:selectednews});

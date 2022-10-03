@@ -37,7 +37,7 @@ app.get('/sitemap.xml', function(req, res) {
   }
 
   try {
-    const smStream = new SitemapStream({ hostname: 'https://neherald.com/' })
+    const smStream = new SitemapStream({ hostname: 'https://www.neherald.com/' })
     const pipeline = smStream.pipe(createGzip())
 
     // pipe your entries or directly write them.

@@ -37,7 +37,7 @@ app.get('/sitemap.xml', function(req, res) {
   }
 
   try {
-    const smStream = new SitemapStream({ hostname: 'https://example.com/' })
+    const smStream = new SitemapStream({ hostname: 'https://neherald.com/' })
     const pipeline = smStream.pipe(createGzip())
 
     // pipe your entries or directly write them.
@@ -46,7 +46,9 @@ app.get('/sitemap.xml', function(req, res) {
     smStream.write({ url: '/news?id='+newsdata.news.all[i].id,  changefreq: 'daily', priority: 0.3 })
     }
 
-    //smStream.write({ url: '/page-2/',  changefreq: 'monthly',  priority: 0.7 })
+    smStream.write({ url: '/aboutus-tripur',  changefreq: 'monthly',  priority: 0.7 })
+    smStream.write({ url: '/photos',  changefreq: 'monthly',  priority: 0.7 })
+    smStream.write({ url: '/contactus',  changefreq: 'monthly',  priority: 0.7 })
     //smStream.write({ url: '/page-3/'})    // changefreq: 'weekly',  priority: 0.5
    // smStream.write({ url: '/page-4/',   img: "http://www.neherald.com" })
     /* or use

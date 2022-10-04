@@ -10604,6 +10604,10 @@ footer .logo-text span {
   */
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .advertisements {
   padding: 1rem 1rem !important;
 }

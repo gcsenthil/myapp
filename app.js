@@ -85,7 +85,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-console.log( __dirname + '/public/scss');
+//console.log( __dirname + '/public/scss');
 app.use(
   sassMiddleware ({
       src: __dirname + '/public/scss', 
@@ -111,8 +111,9 @@ app.use('/login', require('./routes/login'));
 app.use('/auth', require('./routes/auth'))
 app.use('/news', require('./routes/news'))
 app.use('/youtube', require('./routes/youtube'))
-
-
+app.use('/governer', require('./routes/governer'))
+app.use('/chiefminister', require('./routes/chiefminister'))
+app.use('/ministers', require('./routes/ministers'))
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

@@ -49,6 +49,9 @@ app.get('/sitemap.xml', function(req, res) {
     smStream.write({ url: '/aboutus-tripur',  changefreq: 'monthly',  priority: 0.7 })
     smStream.write({ url: '/photos',  changefreq: 'monthly',  priority: 0.7 })
     smStream.write({ url: '/contactus',  changefreq: 'monthly',  priority: 0.7 })
+    smStream.write({ url: '/governer',  changefreq: 'monthly',  priority: 0.7 })
+    smStream.write({ url: '/chiefminister',  changefreq: 'monthly',  priority: 0.7 })
+    smStream.write({ url: '/ministers',  changefreq: 'monthly',  priority: 0.7 })
     //smStream.write({ url: '/page-3/'})    // changefreq: 'weekly',  priority: 0.5
    // smStream.write({ url: '/page-4/',   img: "http://www.neherald.com" })
     /* or use

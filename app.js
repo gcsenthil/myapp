@@ -87,8 +87,8 @@ app.get('/google220272e67ddc9ed9.html',  (req, res) => {
 });
 
 app.get('/article/arindamnath', function(req, res) {
-  console.log("hello"+__dirname + "/public/pdf/I_CAME_IN DARKNESS.pdf");
-  res.sendFile(__dirname + "/public/pdf/I_CAME_IN DARKNESS.pdf");
+  console.log(__dirname + "/public/pdf/I_CAME_IN_DARKNESS.pdf");
+  res.sendFile(__dirname + "/public/pdf/I_CAME_IN_DARKNESS.pdf");
 })
 
 app.set('view engine', 'hbs');

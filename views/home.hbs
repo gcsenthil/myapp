@@ -5,7 +5,7 @@
 
 
 
-     <div class="position-relative cursor-pointer" onclick="window.location.href = '/photos'">
+     <div class="position-relative cursor-pointer" onclick="window.open('/photos','_blank').focus">
                   <img
                     src="images/dashboard/banner2.jpeg"
                     alt="banner"
@@ -22,15 +22,15 @@
  
            
     
-</div>
-              </div>
-             </div>
+            </div>
+            </div>
+            </div>
             <div class="row" data-aos="fade-up">
               <div class="col-xl-8 stretch-card grid-margin">
                   {{#list global}}
                 <div class="position-relative" onclick="window.location.href = '/news?id={{id}}'">
                   <img
-                    src="images/dashboard/{{urlToImage}}"
+                    src="images/news/{{urlToImage}}"
                     alt="banner"
                     class="img-fluid"
                   />
@@ -74,7 +74,7 @@
                 </div>
               </div>
             </div>
-            <div class="row" data-aos="fade-up">
+           <div class="row" data-aos="fade-up">
            
               <div class="col-lg-9 stretch-card grid-margin">
                 <div class="card">
@@ -124,7 +124,45 @@
               </div>
               </div>
             </div>
-             <div class="row" data-aos="fade-up">
+            <div class="row" data-aos="fade-up ">
+                <div class="col-sm-12 grid-margin">
+                     <div class="card">
+                      
+                  <div class="card-body">
+                    <div class="card-title">
+                          Daily News Pholo Album
+                        </div>
+                    <div class="row">
+                       <div class="col-sm-4  grid-margin">
+                        <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus">
+                          <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image2.JPG" alt="Shopkeepers in Agartala">
+                          <div class="card-body">
+                            <p class="card-text">Shopkeepers in Agartala displayed firecrackers at their makeshift shops in Agartala before the worship of Goddess Laxmi on October 9 next.</p>
+                          </div>
+                        </div>
+                       </div>
+                        <div class="col-sm-4  grid-margin">
+                        <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus">
+                          <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image1.JPG" alt="Vendors ">
+                          <div class="card-body">
+                            <p class="card-text">Vendors have arranged a large number of earthen images of Goddess Laxmi for sale on a street of Agartala on October 7.</p>
+                          </div>
+                        </div>
+                       </div>
+                        <div class="col-sm-4  grid-margin">
+                         <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus" >
+                        <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image3.JPG" alt="The qualified candidates for the Selection Test for Graduate Teachers (STGT)">
+                        <div class="card-body">
+                          <p class="card-text">The qualified candidates for the Selection Test for Graduate Teachers (STGT) under Teachers’ Recruitment Board, Tripura (TRBT)  on October 7 morning met Information and Cultural Affairs (ICA) Minister Sushanta Chowdhury at his official residence demanding their early recruitment as government teachers.</p>
+                        </div>
+                      </div>
+                       </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+           <div class="row" data-aos="fade-up">
               <div class="col-sm-12 grid-margin">
                 <div class="card">
                   <div class="card-body">
@@ -330,15 +368,15 @@
                   </div>
                 </div>
               </div>
-            </div>
-                 <div class="row" data-aos="fade-up">
+           </div>
+           <div class="row" data-aos="fade-up">
               <div class="col-sm-12">
                 <div class="card">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-xl-6">
                         <div class="card-title">
-                          Sport light
+                          Spot light
                         </div>
                         <div class="row">
                           <div class="col-xl-6 col-lg-8 col-sm-6">
@@ -416,18 +454,18 @@
                         <div class="row">
                           <div class="col-sm-6">
                             <div class="card-title">
-                              Sport light
+                              Article/Opinion 
                             </div>
-                            <div class="border-bottom pb-3">
-                              <div class="rotate-img">
+                            <div class="border-bottom pb-3 cursor-pointer" onclick="window.open('/article/arindamnath','_blank').focus">
+                              <div class="rotate-img " >
                                 <img
-                                  src="/images/dashboard/home_17.jpg"
+                                  src="/images/article/arindam_nath.jpg"
                                   alt="thumb"
-                                  class="img-fluid"
+                                  class="img-fluid rounded"
                                 />
                               </div>
                               <p class="fs-16 font-weight-600 mb-0 mt-3">
-                                Kaine: Trump Jr. may have
+                                Arindam Nath: I CAME IN DARKNESS, AM LEAVING WHEN IT’S STILL DARK.... 
                               </p>
                               <p class="fs-13 text-muted mb-0">
                                 <span class="mr-2">Photo </span>10 Minutes ago
@@ -576,5 +614,5 @@
                   </div>
                 </div>
               </div>
-            </div>
-            </div>
+           </div>
+          </div>

@@ -10316,6 +10316,7 @@ header .navbar-bottom .navbar-toggler {
   }
 }
 .content-wrapper .banner-content {
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
   position: absolute;

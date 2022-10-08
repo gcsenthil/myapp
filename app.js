@@ -16,6 +16,10 @@ var options = {
   title: 'NEH Photo Gallery'
 };
 
+var DailyOptions = {
+  title: 'NEH Daily News Photo Album'
+};
+
 // Validate our settings schema
 const Ajv = require('ajv');
 const ajv = new Ajv({ useDefaults: true });
@@ -82,8 +86,14 @@ app.get('/google220272e67ddc9ed9.html',  (req, res) => {
   res.send(__basedir+"/google220272e67ddc9ed9.html");
 });
 
+app.get('/article/arindamnath', function(req, res) {
+  console.log("hello"+__dirname + "/public/pdf/I_CAME_IN DARKNESS.pdf");
+  res.sendFile(__dirname + "/public/pdf/I_CAME_IN DARKNESS.pdf");
+})
+
 app.set('view engine', 'hbs');
 app.use('/photos', Gallery('public/images/gallery/DurgaPuja', options));
+app.use('/dailynewsphoto', Gallery('public/images/gallery/DailyNewsPholoAlbum', DailyOptions));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -121,6 +131,8 @@ app.use('/ministers', require('./routes/ministers'))
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
+
 
 
 // error handler

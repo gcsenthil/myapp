@@ -10,6 +10,7 @@ const { SitemapStream, streamToPromise } = require('sitemap')
 const { createGzip } = require('zlib')
 const { Readable } = require('stream')
 var Gallery = require('express-photo-gallery');
+var robots =require('express-robots-txt')
 global.__basedir = __dirname
 
 var options = {

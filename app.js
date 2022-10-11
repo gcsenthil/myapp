@@ -79,7 +79,7 @@ app.get('/sitemap.xml', function(req, res) {
 
 app.use(robots({
   UserAgent: '*',
-  Disallow: '/',
+  Disallow: '',
   CrawlDelay: '5',
   Sitemap: 'https://www.neherald.com/sitemap.xml',
 }))

@@ -76,13 +76,21 @@ app.get('/sitemap.xml', function(req, res) {
   }
 })
 
+app.use(robots({
+  UserAgent: '*',
+  Disallow: '/',
+  CrawlDelay: '5',
+  Sitemap: 'https://www.neherald.com/sitemap.xml',
+}))
 
+app.use(robots(__basedir + '/robots.txt'));
 
 app.engine('hbs', exphbs.engine({
   defaultLayout: 'main',
   helpers: require(__dirname +"/public/javascripts/helpers.js").helpers,
   extname: '.hbs'
 }));
+
 app.get('/google220272e67ddc9ed9.html',  (req, res) => {
   res.send(__basedir+"/google220272e67ddc9ed9.html");
 });

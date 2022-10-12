@@ -20,6 +20,9 @@ var options = {
 var DailyOptions = {
   title: 'NEH Daily News Photo Album'
 };
+var PresidentOptions = {
+  title: 'President Visit Photo Album'
+};
 
 // Validate our settings schema
 const Ajv = require('ajv');
@@ -59,6 +62,7 @@ app.get('/sitemap.xml', function(req, res) {
     smStream.write({ url: '/chiefminister',  changefreq: 'monthly',  priority: 0.7 })
     smStream.write({ url: '/ministers',  changefreq: 'monthly',  priority: 0.7 })
     smStream.write({ url: '/dailynewsphoto/', changefreq: 'weekly',  priority: 0.5})
+    smStream.write({ url: '/presidentphoto/', changefreq: 'weekly',  priority: 0.5})
    // smStream.write({ url: '/page-4/',   img: "http://www.neherald.com" })
     /* or use
     Readable.from([{url: '/page-1'}...]).pipe(smStream)
@@ -103,6 +107,7 @@ app.get('/article/arindamnath', function(req, res) {
 app.set('view engine', 'hbs');
 app.use('/photos', Gallery('public/images/gallery/DurgaPuja', options));
 app.use('/dailynewsphoto', Gallery('public/images/gallery/DailyNewsPholoAlbum', DailyOptions));
+app.use('/presidentphoto', Gallery('public/images/gallery/PresidentDroupadiMurmu', PresidentOptions));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

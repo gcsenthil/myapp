@@ -1,644 +1,567 @@
-  <div class="container">
-             <div class="row" data-aos="fade-up">
-              <div class="col-xl-12 stretch-card grid-margin">
-               <div class="card" >
-
-
-
-     <div class="position-relative cursor-pointer" onclick="window.open('/photos','_blank').focus">
-                  <img
-                    src="images/dashboard/banner2.jpeg"
-                    alt="banner"
-                    class="img-fluid"
-                  />
-                  <div class="banner-top"> 
-                    <h1 class="mb-0">{{shortTitle}}</h1>
-                    <h1 class="mb-2">
-                     Glimpses of Durga Puja, 2022 in Agartala
-                    </h1>                  
-               
-                  </div>
-                </div>
- 
-           
-    
-            </div>
-            </div>
-            </div>
-            <div class="row" data-aos="fade-up">
-              <div class="col-xl-8 stretch-card grid-margin">
-                  {{#list global}}
-                <div class="position-relative" onclick="window.location.href = '/news?id={{id}}'">
-                  <img
-                    src="images/news/{{urlToImage}}"
-                    alt="banner"
-                    class="img-fluid"
-                  />
-                  <div class="banner-content">
-                   <div class="overlay">
-                    <div class="badge badge-danger fs-12 font-weight-bold mb-3">
-                      Top News
-                    </div>
-                    <h1 class="mb-0">{{shortTitle}}</h1>
-                    <h1 class="mb-2">
-                      {{title}}
-                    </h1>
-                    <div class="fs-12">
-                      <span class="mr-2">NEH </span>10 Minutes ago
-                    </div>
-                  </div>
-                  </div>
-                </div>
-                  {{/list}}
-              </div>
-              <div class="col-xl-4 stretch-card grid-margin">
-                <div class="card bg-dark text-white">
-                  <div class="card-body">
-                    <h2>Latest news</h2>
-                     {{#latestnews latestnews}}                         
-                      <div class="pr-3 news-a cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
-                        <h5>{{title}}</h5>
-                        <div class="fs-12">
-                          <span class="mr-2">NEH </span>{{publishedAt}}
-                        </div>
-                      </div>
-                      <div class="rotate-img latest-news-home cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
-                        <img
-                          src="images/news/{{urlToImage}}"
-                          alt="thumb"
-                          class="img-fluid img-lg"
-                        />
-                      </div>                   
-                    {{/latestnews}}         
-                  </div>
-                </div>
-              </div>
-            </div>
-           <div class="row" data-aos="fade-up">
-           
-              <div class="col-lg-9 stretch-card grid-margin">
-                <div class="card">
-                  <div class="card-body">
-                   {{#list flashnews}}
-                     <div class="row cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
-                      <div class="col-sm-4 grid-margin">
-                        <div class="position-relative">
-                          <div class="rotate-img">
-                            <img
-                              src="images/news/{{urlToImage}}"
-                              alt="thumb"
-                              class="img-fluid"
-                            />
-                          </div>
-                          <div class="badge-positioned">
-                            <span class="badge badge-danger font-weight-bold"
-                              >Flash news</span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-8  grid-margin">
-                        <h2 class="mb-2 font-weight-600">
-                          {{title}}
-                        </h2>
-                        <div class="fs-13 mb-2">
-                          <span class="mr-2">NEH</span>{{publishedAt}}
-                        </div>
-                        <p class="mb-0 a-black">
-                      {{description}}
-                        </p>
-                      </div>
-                    </div>
-                    {{/list}}  
-                  </div>
-                </div>
-              </div>
-                 <div class="col-lg-3 stretch-card grid-margin">
-                  <div class="card">
-                  <div class="card-body advertisements">
-                    
-                    <img src="images/ads/durgapuja.JPG"/>                 
-                 
-                  
-              </div>
-              </div>
-              </div>
-            </div>
-            <div class="row" data-aos="fade-up ">
-                <div class="col-sm-12 grid-margin">
-                     <div class="card">
-                      
-                  <div class="card-body">
-                    <div class="card-title">
-                          Daily News Pholo Album
-                        </div>
-                    <div class="row">
-                       <div class="col-sm-4  grid-margin">
-                        <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus">
-                          <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image2.JPG" alt="Shopkeepers in Agartala">
-                          <div class="card-body">
-                            <p class="card-text">Shopkeepers in Agartala displayed firecrackers at their makeshift shops in Agartala before the worship of Goddess Laxmi on October 9 next.</p>
-                          </div>
-                        </div>
-                       </div>
-                        <div class="col-sm-4  grid-margin">
-                        <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus">
-                          <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image1.JPG" alt="Vendors ">
-                          <div class="card-body">
-                            <p class="card-text">Vendors have arranged a large number of earthen images of Goddess Laxmi for sale on a street of Agartala on October 7.</p>
-                          </div>
-                        </div>
-                       </div>
-                        <div class="col-sm-4  grid-margin">
-                         <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus" >
-                        <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image3.jpg" alt="The qualified candidates for the Selection Test for Graduate Teachers (STGT)">
-                        <div class="card-body">
-                          <p class="card-text">The qualified candidates for the Selection Test for Graduate Teachers (STGT) under Teachers’ Recruitment Board, Tripura (TRBT)  on October 7 morning met Information and Cultural Affairs (ICA) Minister Sushanta Chowdhury at his official residence demanding their early recruitment as government teachers.</p>
-                        </div>
-                      </div>
-                       </div>
-                    </div>
-                      <div class="row">
-                       <div class="col-sm-4  grid-margin">
-                        <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus">
-                          <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image4.JPG" alt="Shopkeepers in Agartala">
-                          <div class="card-body">
-                            <p class="card-text">SUCI activists staged a demonstration in Agartala on October 10 demanding immediate rollback of hiked CNG prices.</p>
-                          </div>
-                        </div>
-                       </div>
-                        <div class="col-sm-4  grid-margin">
-                        <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus">
-                          <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image5.JPG" alt="Vendors ">
-                          <div class="card-body">
-                            <p class="card-text">AIKS pays tributes to the martyrs of  Golaghati farmers during a memorial programme held at Agartala on October 10.</p>
-                          </div>
-                        </div>
-                       </div>
-                        <div class="col-sm-4  grid-margin">
-                         <div class="card border cursor-pointer"  onclick="window.open('/dailynewsphoto','_blank').focus" >
-                        <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image6.JPG" alt="The qualified candidates for the Selection Test for Graduate Teachers (STGT)">
-                        <div class="card-body">
-                          <p class="card-text">The Bhutia community traders, who are setting winter garment stall in Agartala every winter, are now making their makeshift stall in Battala TRTC complex in Agartala on October 10.</p>
-                        </div>
-                      </div>
-                       </div>
-                    </div>
-                </div>
-                </div>
-                </div>
-            </div>
-           <div class="row" data-aos="fade-up">
-              <div class="col-sm-12 grid-margin">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-lg-8">
-                        <div class="card-title">
-                          Video
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-6 grid-margin cursor-pointer" onclick="window.open('https://www.youtube.com/watch?v=_zK_ERpESeA&t=32s','_blank').focus">
-                            <div class="position-relative">
-                              <div class="rotate-img">
-                                <img
-                                  src="/images/video/youtube1.png"
-                                  alt="thumb"
-                                  class="img-fluid"
-                                />
-                              </div>
-                              <div class="badge-positioned w-90">
-                                <div
-                                  class="d-flex justify-content-between align-items-center"
-                                >
-                                  <span
-                                    class="badge badge-danger font-weight-bold"
-                                    >News Videos</span
-                                  >
-                                  <div class="video-icon">
-                                    <i class="mdi mdi-play"></i>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-sm-6 grid-margin cursor-pointer" onclick="window.open('https://www.youtube.com/watch?v=4sKLHdQ4gdY&t=20s','_blank').focus">
-                            <div class="position-relative">
-                              <div class="rotate-img">
-                                <img
-                                  src="/images/video/youtube2.png"
-                                  alt="thumb"
-                                  class="img-fluid"
-                                />
-                              </div>
-                              <div class="badge-positioned w-90">
-                                <div
-                                  class="d-flex justify-content-between align-items-center"
-                                >
-                                  <span
-                                    class="badge badge-danger font-weight-bold"
-                                    >News Videos</span
-                                  >
-                                  <div class="video-icon">
-                                    <i class="mdi mdi-play"></i>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-6 grid-margin cursor-pointer" onclick="window.open('https://www.youtube.com/watch?v=XxAqwVnyFrA&t=1s','_blank').focus">
-                            <div class="position-relative">
-                              <div class="rotate-img">
-                                <img
-                                   src="/images/video/youtube3.png"
-                                  alt="thumb"
-                                  class="img-fluid"
-                                />
-                              </div>
-                              <div class="badge-positioned w-90">
-                                <div
-                                  class="d-flex justify-content-between align-items-center"
-                                >
-                                  <span
-                                    class="badge badge-danger font-weight-bold"
-                                    >News Videos</span
-                                  >
-                                  <div class="video-icon">
-                                    <i class="mdi mdi-play"></i>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-sm-6 grid-margin cursor-pointer" onclick="window.open('https://www.youtube.com/watch?v=hMks5knbkGc&t=25s','_blank').focus">
-                            <div class="position-relative">
-                              <div class="rotate-img">
-                                <img
-                                   src="/images/video/youtube4.png"
-                                  alt="thumb"
-                                  class="img-fluid"
-                                />
-                              </div>
-                              <div class="badge-positioned w-90">
-                                <div
-                                  class="d-flex justify-content-between align-items-center"
-                                >
-                                  <span
-                                    class="badge badge-danger font-weight-bold"
-                                    >News Videos</span
-                                  >
-                                  <div class="video-icon">
-                                    <i class="mdi mdi-play"></i>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-4">
-                        <div
-                          class="d-flex justify-content-between align-items-center"
-                        >
-                          <div class="card-title">
-                            Latest Video
-                          </div>
-                          <p class="mb-3 cursor-pointer cursor-pointer"  onclick="window.open('https://www.youtube.com/channel/UCxfmySCv2BbfKrKrsHRYtBg','_blank').focus">See all</p>
-                        </div>
-                        <div
-                          class="d-flex justify-content-between align-items-center border-bottom pb-2"
-                        >
-                          <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="/images/dashboard/home_11.jpg"
-                                alt="thumb"
-                                class="img-fluid"
-                              />
-                            </div>
-                          </div>
-                          <h3 class="font-weight-600 mb-0">
-                            Apple Introduces Apple Watch
-                          </h3>
-                        </div>
-                        <div
-                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
-                        >
-                          <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="/images/dashboard/home_12.jpg"
-                                alt="thumb"
-                                class="img-fluid"
-                              />
-                            </div>
-                          </div>
-                          <h3 class="font-weight-600 mb-0">
-                            SEO Strategy & Google Search
-                          </h3>
-                        </div>
-                        <div
-                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
-                        >
-                          <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="/images/dashboard/home_13.jpg"
-                                alt="thumb"
-                                class="img-fluid"
-                              />
-                            </div>
-                          </div>
-                          <h3 class="font-weight-600 mb-0">
-                            Cycling benefit & disadvantag
-                          </h3>
-                        </div>
-                        <div
-                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
-                        >
-                          <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="/images/dashboard/home_14.jpg"
-                                alt="thumb"
-                                class="img-fluid"
-                              />
-                            </div>
-                          </div>
-                          <h3 class="font-weight-600">
-                            The Major Health Benefits of
-                          </h3>
-                        </div>
-                        <div
-                          class="d-flex justify-content-between align-items-center pt-3"
-                        >
-                          <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="/images/dashboard/home_15.jpg"
-                                alt="thumb"
-                                class="img-fluid"
-                              />
-                            </div>
-                          </div>
-                          <h3 class="font-weight-600 mb-0">
-                            Powerful Moments of Peace
-                          </h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-           </div>
-           <div class="row" data-aos="fade-up">
-              <div class="col-sm-12">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-xl-6">
-                        <div class="card-title">
-                          Spot light
-                        </div>
-                        <div class="row">
-                          <div class="col-xl-6 col-lg-8 col-sm-6">
-                            <div class="rotate-img">
-                              <img
-                                src="/images/dashboard/home_16.jpg"
-                                alt="thumb"
-                                class="img-fluid"
-                              />
-                            </div>
-                            <h2 class="mt-3 text-primary mb-2">
-                              Newsrooms exercise..
-                            </h2>
-                            <p class="fs-13 mb-1 text-muted">
-                              <span class="mr-2">Photo </span>10 Minutes ago
-                            </p>
-                            <p class="my-3 fs-15">
-                              Lorem Ipsum has been the industry's standard dummy
-                              text ever since the 1500s, when an unknown printer
-                              took
-                            </p>
-                            <a href="#" class="font-weight-600 fs-16 text-dark"
-                              >Read more</a
-                            >
-                          </div>
-                          <div class="col-xl-6 col-lg-4 col-sm-6">
-                            <div class="border-bottom pb-3 mb-3">
-                              <h3 class="font-weight-600 mb-0">
-                                Social distancing is ..
-                              </h3>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                              <p class="mb-0">
-                                Lorem Ipsum has been the industry's
-                              </p>
-                            </div>
-                            <div class="border-bottom pb-3 mb-3">
-                              <h3 class="font-weight-600 mb-0">
-                                Panic buying is forcing..
-                              </h3>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                              <p class="mb-0">
-                                Lorem Ipsum has been the industry's
-                              </p>
-                            </div>
-                            <div class="border-bottom pb-3 mb-3">
-                              <h3 class="font-weight-600 mb-0">
-                                Businesses ask hundreds..
-                              </h3>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                              <p class="mb-0">
-                                Lorem Ipsum has been the industry's
-                              </p>
-                            </div>
-                            <div>
-                              <h3 class="font-weight-600 mb-0">
-                                Tesla's California factory..
-                              </h3>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                              <p class="mb-0">
-                                Lorem Ipsum has been the industry's
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xl-6">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="card-title">
-                              Article/Opinion 
-                            </div>
-                            <div class="border-bottom pb-3 cursor-pointer" onclick="window.open('/article/arindamnath','_blank').focus">
-                              <div class="rotate-img " >
-                                <img
-                                  src="/images/article/arindam_nath.jpg"
-                                  alt="thumb"
-                                  class="img-fluid rounded"
-                                />
-                              </div>
-                              <p class="fs-16 font-weight-600 mb-0 mt-3">
-                                Arindam Nath: I CAME IN DARKNESS, AM LEAVING WHEN IT’S STILL DARK.... 
-                              </p>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                            </div>
-                            <div class="pt-3 pb-3">
-                              <div class="rotate-img">
-                                <img
-                                  src="/images/dashboard/home_18.jpg"
-                                  alt="thumb"
-                                  class="img-fluid"
-                                />
-                              </div>
-                              <p class="fs-16 font-weight-600 mb-0 mt-3">
-                                Kaine: Trump Jr. may have
-                              </p>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                            </div>
-                          </div>
-                          <div class="col-sm-6">
-                            <div class="card-title">
-                              Bengali News
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <div class="border-bottom pb-3">
-                                  <div class="row">
-                                    <div class="col-sm-5 pr-2">
-                                      <div class="rotate-img">
-                                        <img
-                                          src="/images/dashboard/home_19.jpg"
-                                          alt="thumb"
-                                          class="img-fluid w-100"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-7 pl-2">
-                                      <p class="fs-16 font-weight-600 mb-0">
-                                        Online shopping ..
-                                      </p>
-                                      <p class="fs-13 text-muted mb-0">
-                                        <span class="mr-2">Photo </span>10
-                                        Minutes ago
-                                      </p>
-                                      <p class="mb-0 fs-13">
-                                        Lorem Ipsum has been
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <div class="border-bottom pb-3 pt-3">
-                                  <div class="row">
-                                    <div class="col-sm-5 pr-2">
-                                      <div class="rotate-img">
-                                        <img
-                                          src="/images/dashboard/home_20.jpg"
-                                          alt="thumb"
-                                          class="img-fluid w-100"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-7 pl-2">
-                                      <p class="fs-16 font-weight-600 mb-0">
-                                        Online shopping ..
-                                      </p>
-                                      <p class="fs-13 text-muted mb-0">
-                                        <span class="mr-2">Photo </span>10
-                                        Minutes ago
-                                      </p>
-                                      <p class="mb-0 fs-13">
-                                        Lorem Ipsum has been
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <div class="border-bottom pb-3 pt-3">
-                                  <div class="row">
-                                    <div class="col-sm-5 pr-2">
-                                      <div class="rotate-img">
-                                        <img
-                                          src="/images/dashboard/home_21.jpg"
-                                          alt="thumb"
-                                          class="img-fluid w-100"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-7 pl-2">
-                                      <p class="fs-16 font-weight-600 mb-0">
-                                        Online shopping ..
-                                      </p>
-                                      <p class="fs-13 text-muted mb-0">
-                                        <span class="mr-2">Photo </span>10
-                                        Minutes ago
-                                      </p>
-                                      <p class="mb-0 fs-13">
-                                        Lorem Ipsum has been
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <div class="pt-3">
-                                  <div class="row">
-                                    <div class="col-sm-5 pr-2">
-                                      <div class="rotate-img">
-                                        <img
-                                          src="/images/dashboard/home_22.jpg"
-                                          alt="thumb"
-                                          class="img-fluid w-100"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-7 pl-2">
-                                      <p class="fs-16 font-weight-600 mb-0">
-                                        Online shopping ..
-                                      </p>
-                                      <p class="fs-13 text-muted mb-0">
-                                        <span class="mr-2">Photo </span>10
-                                        Minutes ago
-                                      </p>
-                                      <p class="mb-0 fs-13">
-                                        Lorem Ipsum has been
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-           </div>
+<div class="container">
+  <!-- Banner Top-->
+  <div class="row" data-aos="fade-up">
+    <div class="col-xl-12 stretch-card grid-margin">
+      <div class="card">
+        <div class="position-relative cursor-pointer" onclick="window.open('/photos','_blank').focus">
+          <img src="images/dashboard/banner2.jpeg" alt="banner" class="img-fluid" />
+          <div class="banner-top">
+            <h1 class="mb-0">{{shortTitle}}</h1>
+            <h1 class="mb-2">
+              Glimpses of Durga Puja, 2022 in Agartala
+            </h1>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+  <!-- Headline Top with Latest News-->
+  <div class="row" data-aos="fade-up">
+    <div class="col-xl-8 stretch-card grid-margin">
+      {{#list global}}
+      <div class="position-relative" onclick="window.location.href = '/news?id={{id}}'">
+        <img src="images/news/{{urlToImage}}" alt="banner" class="img-fluid" />
+        <div class="banner-content">
+          <div class="overlay">
+            <div class="badge badge-danger fs-12 font-weight-bold mb-3">
+              Top News
+            </div>
+            <h1 class="mb-0">{{shortTitle}}</h1>
+            <h1 class="mb-2">
+              {{title}}
+            </h1>
+            <div class="fs-12">
+              <span class="mr-2">NEH </span>10 Minutes ago
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/list}}
+    </div>
+    <div class="col-xl-4 stretch-card grid-margin">
+      <div class="card bg-dark text-white">
+        <div class="card-body">
+          <h2>Latest news</h2>
+          {{#latestnews latestnews}}
+          <div class="pr-3 news-a cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
+            <h5>{{title}}</h5>
+            <div class="fs-12">
+              <span class="mr-2">NEH </span>{{publishedAt}}
+            </div>
+          </div>
+          <div class="rotate-img latest-news-home cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
+            <img src="images/news/{{urlToImage}}" alt="thumb" class="img-fluid img-lg" />
+          </div>
+          {{/latestnews}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+  <!-- Flash News Top-->
+  <div class="row" data-aos="fade-up">
+
+    <div class="col-lg-9 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body">
+          {{#list flashnews}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img src="images/news/{{urlToImage}}" alt="thumb" class="img-fluid" />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold">Flash news</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8  grid-margin">
+              <h2 class="mb-2 font-weight-600">
+                {{title}}
+              </h2>
+              <div class="fs-13 mb-2">
+                <span class="mr-2">NEH</span>{{publishedAt}}
+              </div>
+              <p class="mb-0 a-black">
+                {{description}}
+              </p>
+            </div>
+          </div>
+          {{/list}}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body advertisements">
+
+          <img src="images/ads/durgapuja.JPG" />
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+  <!-- DailyNewsAlbum-->
+  <div class="row" data-aos="fade-up ">
+    <div class="col-sm-12 grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">
+            Daily News Pholo Album
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                  <div class=" col-sm-12 grid-margin">
+                <div class="card border cursor-pointer" onclick="window.open('/presidentphoto','_blank').focus">
+                  <img class="card-img-top rounded" src="images/gallery/PresidentDroupadiMurmu/Image1.JPG" alt="Vendors ">
+                  <div class="card-body">
+                    <p class="card-text">The President of India her Excellency Droupadi Murmu launches a slew of government projects including the new MLA hostel close to the Civil secretariat on October 12.</p>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-sm-12 grid-margin">
+                <div class="card border cursor-pointer" onclick="window.open('/dailynewsphoto','_blank').focus">
+                  <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image2.JPG"
+                    alt="Shopkeepers in Agartala">
+                  <div class="card-body">
+                    <p class="card-text">Shopkeepers in Agartala displayed firecrackers at their makeshift shops in
+                      Agartala before the worship of Goddess Laxmi on October 9 next.</p>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-sm-12 grid-margin">
+                <div class="card border cursor-pointer" onclick="window.open('/dailynewsphoto','_blank').focus">
+                  <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image1.JPG" alt="Vendors ">
+                  <div class="card-body">
+                    <p class="card-text">Vendors have arranged a large number of earthen images of Goddess Laxmi for
+                      sale
+                      on a street of Agartala on October 7.</p>
+                  </div>
+                </div>
+              </div>           
+            </div>
+            <div class="col-lg-4 col-sm-12  col-md-6">
+              <div class="col-sm-12  grid-margin">
+                <div class="card border cursor-pointer" onclick="window.open('/dailynewsphoto','_blank').focus">
+                  <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image4.JPG"
+                    alt="Shopkeepers in Agartala">
+                  <div class="card-body">
+                    <p class="card-text">SUCI activists staged a demonstration in Agartala on October 10 demanding
+                      immediate rollback of hiked CNG prices.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12  grid-margin">
+                <div class="card border cursor-pointer" onclick="window.open('/dailynewsphoto','_blank').focus">
+                  <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image5.JPG" alt="Vendors ">
+                  <div class="card-body">
+                    <p class="card-text">AIKS pays tributes to the martyrs of Golaghati farmers during a memorial
+                      programme held at Agartala on October 10.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12  col-md-6">
+              <div class=" col-sm-12 grid-margin">
+                <div class="card border cursor-pointer" onclick="window.open('/dailynewsphoto','_blank').focus">
+                  <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image3.jpg"
+                    alt="The qualified candidates for the Selection Test for Graduate Teachers (STGT)">
+                  <div class="card-body">
+                    <p class="card-text">The qualified candidates for the Selection Test for Graduate Teachers (STGT)
+                      under Teachers’ Recruitment Board, Tripura (TRBT) on October 7 morning met Information and
+                      Cultural
+                      Affairs (ICA) Minister Sushanta Chowdhury at his official residence demanding their early
+                      recruitment as government teachers.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12  grid-margin">
+                <div class="card border cursor-pointer" onclick="window.open('/dailynewsphoto','_blank').focus">
+                  <img class="card-img-top rounded" src="images/gallery/DailyNewsPholoAlbum/Image6.JPG"
+                    alt="The qualified candidates for the Selection Test for Graduate Teachers (STGT)">
+                  <div class="card-body">
+                    <p class="card-text">The Bhutia community traders, who are setting winter garment stall in Agartala
+                      every winter, are now making their makeshift stall in Battala TRTC complex in Agartala on October
+                      10.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+  <!-- Video-->
+  <div class="row" data-aos="fade-up">
+    <div class="col-sm-12 grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="card-title">
+                Video
+              </div>
+              <div class="row">
+                <div class="col-sm-6 grid-margin cursor-pointer"
+                  onclick="window.open('https://www.youtube.com/watch?v=_zK_ERpESeA&t=32s','_blank').focus">
+                  <div class="position-relative">
+                    <div class="rotate-img">
+                      <img src="/images/video/youtube1.png" alt="thumb" class="img-fluid" />
+                    </div>
+                    <div class="badge-positioned w-90">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge badge-danger font-weight-bold">News Videos</span>
+                        <div class="video-icon">
+                          <i class="mdi mdi-play"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 grid-margin cursor-pointer"
+                  onclick="window.open('https://www.youtube.com/watch?v=4sKLHdQ4gdY&t=20s','_blank').focus">
+                  <div class="position-relative">
+                    <div class="rotate-img">
+                      <img src="/images/video/youtube2.png" alt="thumb" class="img-fluid" />
+                    </div>
+                    <div class="badge-positioned w-90">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge badge-danger font-weight-bold">News Videos</span>
+                        <div class="video-icon">
+                          <i class="mdi mdi-play"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 grid-margin cursor-pointer"
+                  onclick="window.open('https://www.youtube.com/watch?v=XxAqwVnyFrA&t=1s','_blank').focus">
+                  <div class="position-relative">
+                    <div class="rotate-img">
+                      <img src="/images/video/youtube3.png" alt="thumb" class="img-fluid" />
+                    </div>
+                    <div class="badge-positioned w-90">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge badge-danger font-weight-bold">News Videos</span>
+                        <div class="video-icon">
+                          <i class="mdi mdi-play"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 grid-margin cursor-pointer"
+                  onclick="window.open('https://www.youtube.com/watch?v=hMks5knbkGc&t=25s','_blank').focus">
+                  <div class="position-relative">
+                    <div class="rotate-img">
+                      <img src="/images/video/youtube4.png" alt="thumb" class="img-fluid" />
+                    </div>
+                    <div class="badge-positioned w-90">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge badge-danger font-weight-bold">News Videos</span>
+                        <div class="video-icon">
+                          <i class="mdi mdi-play"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="card-title">
+                  Latest Video
+                </div>
+                <p class="mb-3 cursor-pointer cursor-pointer"
+                  onclick="window.open('https://www.youtube.com/channel/UCxfmySCv2BbfKrKrsHRYtBg','_blank').focus">See
+                  all</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom pb-2">
+                <div class="div-w-80 mr-3">
+                  <div class="rotate-img">
+                    <img src="/images/dashboard/home_11.jpg" alt="thumb" class="img-fluid" />
+                  </div>
+                </div>
+                <h3 class="font-weight-600 mb-0">
+                  Apple Introduces Apple Watch
+                </h3>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2">
+                <div class="div-w-80 mr-3">
+                  <div class="rotate-img">
+                    <img src="/images/dashboard/home_12.jpg" alt="thumb" class="img-fluid" />
+                  </div>
+                </div>
+                <h3 class="font-weight-600 mb-0">
+                  SEO Strategy & Google Search
+                </h3>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2">
+                <div class="div-w-80 mr-3">
+                  <div class="rotate-img">
+                    <img src="/images/dashboard/home_13.jpg" alt="thumb" class="img-fluid" />
+                  </div>
+                </div>
+                <h3 class="font-weight-600 mb-0">
+                  Cycling benefit & disadvantag
+                </h3>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2">
+                <div class="div-w-80 mr-3">
+                  <div class="rotate-img">
+                    <img src="/images/dashboard/home_14.jpg" alt="thumb" class="img-fluid" />
+                  </div>
+                </div>
+                <h3 class="font-weight-600">
+                  The Major Health Benefits of
+                </h3>
+              </div>
+              <div class="d-flex justify-content-between align-items-center pt-3">
+                <div class="div-w-80 mr-3">
+                  <div class="rotate-img">
+                    <img src="/images/dashboard/home_15.jpg" alt="thumb" class="img-fluid" />
+                  </div>
+                </div>
+                <h3 class="font-weight-600 mb-0">
+                  Powerful Moments of Peace
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+  <!-- Spotlight-->
+  <div class="row" data-aos="fade-up">
+    <div class="col-sm-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-xl-6">
+              <div class="card-title">
+                Spot light
+              </div>
+              <div class="row">
+                <div class="col-xl-6 col-lg-8 col-sm-6">
+                  <div class="rotate-img">
+                    <img src="/images/dashboard/home_16.jpg" alt="thumb" class="img-fluid" />
+                  </div>
+                  <h2 class="mt-3 text-primary mb-2">
+                    Newsrooms exercise..
+                  </h2>
+                  <p class="fs-13 mb-1 text-muted">
+                    <span class="mr-2">Photo </span>10 Minutes ago
+                  </p>
+                  <p class="my-3 fs-15">
+                    Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer
+                    took
+                  </p>
+                  <a href="#" class="font-weight-600 fs-16 text-dark">Read more</a>
+                </div>
+                <div class="col-xl-6 col-lg-4 col-sm-6">
+                  <div class="border-bottom pb-3 mb-3">
+                    <h3 class="font-weight-600 mb-0">
+                      Social distancing is ..
+                    </h3>
+                    <p class="fs-13 text-muted mb-0">
+                      <span class="mr-2">Photo </span>10 Minutes ago
+                    </p>
+                    <p class="mb-0">
+                      Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div class="border-bottom pb-3 mb-3">
+                    <h3 class="font-weight-600 mb-0">
+                      Panic buying is forcing..
+                    </h3>
+                    <p class="fs-13 text-muted mb-0">
+                      <span class="mr-2">Photo </span>10 Minutes ago
+                    </p>
+                    <p class="mb-0">
+                      Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div class="border-bottom pb-3 mb-3">
+                    <h3 class="font-weight-600 mb-0">
+                      Businesses ask hundreds..
+                    </h3>
+                    <p class="fs-13 text-muted mb-0">
+                      <span class="mr-2">Photo </span>10 Minutes ago
+                    </p>
+                    <p class="mb-0">
+                      Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                  <div>
+                    <h3 class="font-weight-600 mb-0">
+                      Tesla's California factory..
+                    </h3>
+                    <p class="fs-13 text-muted mb-0">
+                      <span class="mr-2">Photo </span>10 Minutes ago
+                    </p>
+                    <p class="mb-0">
+                      Lorem Ipsum has been the industry's
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card-title">
+                    Article/Opinion
+                  </div>
+                  <div class="border-bottom pb-3 cursor-pointer"
+                    onclick="window.open('/article/arindamnath','_blank').focus">
+                    <div class="rotate-img ">
+                      <img src="/images/article/arindam_nath.jpg" alt="thumb" class="img-fluid rounded" />
+                    </div>
+                    <p class="fs-16 font-weight-600 mb-0 mt-3">
+                      Arindam Nath: I CAME IN DARKNESS, AM LEAVING WHEN IT’S STILL DARK....
+                    </p>
+                    <p class="fs-13 text-muted mb-0">
+                      <span class="mr-2">Photo </span>10 Minutes ago
+                    </p>
+                  </div>
+                  <div class="pt-3 pb-3">
+                    <div class="rotate-img">
+                      <img src="/images/dashboard/home_18.jpg" alt="thumb" class="img-fluid" />
+                    </div>
+                    <p class="fs-16 font-weight-600 mb-0 mt-3">
+                      Kaine: Trump Jr. may have
+                    </p>
+                    <p class="fs-13 text-muted mb-0">
+                      <span class="mr-2">Photo </span>10 Minutes ago
+                    </p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card-title">
+                    Bengali News
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="border-bottom pb-3">
+                        <div class="row">
+                          <div class="col-sm-5 pr-2">
+                            <div class="rotate-img">
+                              <img src="/images/dashboard/home_19.jpg" alt="thumb" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                          <div class="col-sm-7 pl-2">
+                            <p class="fs-16 font-weight-600 mb-0">
+                              Online shopping ..
+                            </p>
+                            <p class="fs-13 text-muted mb-0">
+                              <span class="mr-2">Photo </span>10
+                              Minutes ago
+                            </p>
+                            <p class="mb-0 fs-13">
+                              Lorem Ipsum has been
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="border-bottom pb-3 pt-3">
+                        <div class="row">
+                          <div class="col-sm-5 pr-2">
+                            <div class="rotate-img">
+                              <img src="/images/dashboard/home_20.jpg" alt="thumb" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                          <div class="col-sm-7 pl-2">
+                            <p class="fs-16 font-weight-600 mb-0">
+                              Online shopping ..
+                            </p>
+                            <p class="fs-13 text-muted mb-0">
+                              <span class="mr-2">Photo </span>10
+                              Minutes ago
+                            </p>
+                            <p class="mb-0 fs-13">
+                              Lorem Ipsum has been
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="border-bottom pb-3 pt-3">
+                        <div class="row">
+                          <div class="col-sm-5 pr-2">
+                            <div class="rotate-img">
+                              <img src="/images/dashboard/home_21.jpg" alt="thumb" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                          <div class="col-sm-7 pl-2">
+                            <p class="fs-16 font-weight-600 mb-0">
+                              Online shopping ..
+                            </p>
+                            <p class="fs-13 text-muted mb-0">
+                              <span class="mr-2">Photo </span>10
+                              Minutes ago
+                            </p>
+                            <p class="mb-0 fs-13">
+                              Lorem Ipsum has been
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="pt-3">
+                        <div class="row">
+                          <div class="col-sm-5 pr-2">
+                            <div class="rotate-img">
+                              <img src="/images/dashboard/home_22.jpg" alt="thumb" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                          <div class="col-sm-7 pl-2">
+                            <p class="fs-16 font-weight-600 mb-0">
+                              Online shopping ..
+                            </p>
+                            <p class="fs-13 text-muted mb-0">
+                              <span class="mr-2">Photo </span>10
+                              Minutes ago
+                            </p>
+                            <p class="mb-0 fs-13">
+                              Lorem Ipsum has been
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+</div>

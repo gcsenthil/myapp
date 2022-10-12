@@ -16,7 +16,12 @@ router.get('/', function(req, res, next) {
       selectedNews.push(newsdata.news.all[i]);
   }
   
-  res.render('allnews',{title:"allnews",category:cat,allnews:selectedNews,latestnews:newsdata.news.all.latest});
+  res.render('allnews',{
+    pageTitleDesc:"All Northeast India's premier news, views",
+    pageTitle:"All News",
+    metaDesc:"Northeast Herald starts its journey from Tripura state capital city Agartala to cover the entire Northeast region of India for the latest news, news photos, and the latest photos to promote the great cultural, historical and traditional identity of the region.",
+    title:"allnews",
+    category:cat,allnews:selectedNews,latestnews:newsdata.news.all.latest});
 });
 
 module.exports = router;

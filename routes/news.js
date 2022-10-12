@@ -16,7 +16,10 @@ router.get('/', function(req, res, next) {
     }
 
     if(selectednews!=null)
-    res.render('news',{title:selectednews.title,
+    res.render('news',{pageTitleDesc:selectednews.title,
+      pageTitle:"News",      
+      metaDesc:selectednews.description,
+      title:selectednews.title,
       data:selectednews});
       else
     res.render('404',{title:"No item found!!"});

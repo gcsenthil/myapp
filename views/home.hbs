@@ -20,8 +20,8 @@
   <div class="row" data-aos="fade-up">
     <div class="col-xl-8 stretch-card grid-margin">
       {{#list global}}
-      <div class="position-relative" onclick="window.location.href = '/news?id={{id}}'">
-        <img src="images/news/{{urlToImage}}" alt="banner" class="img-fluid" />
+      <div class="position-relative" onclick="window.location.href = '/news?category=global&id={{id}}'">
+        <img src="images/news/global/{{imageName}}" alt="banner" class="img-fluid" />
         <div class="banner-content">
           <div class="overlay">
             <div class="badge badge-danger fs-12 font-weight-bold mb-3">
@@ -44,14 +44,14 @@
         <div class="card-body">
           <h2>Latest news</h2>
           {{#latestnews latestnews}}
-          <div class="pr-3 news-a cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
+          <div class="pr-3 news-a cursor-pointer" onclick="window.location.href = '/news?category={{newsCategory}}&id={{id}}'">
             <h5>{{title}}</h5>
             <div class="fs-12">
               <span class="mr-2">NEH </span>{{publishedAt}}
             </div>
           </div>
-          <div class="rotate-img latest-news-home cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
-            <img src="images/news/{{urlToImage}}" alt="thumb" class="img-fluid img-lg" />
+          <div class="rotate-img latest-news-home cursor-pointer" onclick="window.location.href = '/news?category={{newsCategory}}&id={{id}}'">
+            <img src="images/news/{{newsCategory}}/{{imageName}}" alt="thumb" class="img-fluid img-lg" />
           </div>
           {{/latestnews}}
         </div>
@@ -59,21 +59,25 @@
     </div>
   </div>
   <!-- End-->
-  <!-- Flash News Top-->
+  <!-- Tripura News Top-->
+  {{#if tripuranews}}
   <div class="row" data-aos="fade-up">
 
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          {{#list flashnews}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?id={{id}}'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=tripura'">
+            Tripura News (View All)
+          </div>
+          {{#list tripuranews}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=tripura&id={{id}}'">
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
-                  <img src="images/news/{{urlToImage}}" alt="thumb" class="img-fluid" />
+                  <img src="images/news/tripura/{{imageName}}" alt="thumb" class="img-fluid" />
                 </div>
                 <div class="badge-positioned">
-                  <span class="badge badge-danger font-weight-bold">Flash news</span>
+                  <span class="badge badge-danger font-weight-bold">Tripura News</span>
                 </div>
               </div>
             </div>
@@ -96,14 +100,351 @@
     <div class="col-lg-3 stretch-card grid-margin">
       <div class="card">
         <div class="card-body advertisements">
-
-          <img src="images/ads/durgapuja.JPG" />
-
-
+          <img src="https://dummyimage.com/300x300/c2c0c2/2e2e33.jpg&text=ads+go+here" />
         </div>
       </div>
     </div>
   </div>
+  {{/if}}
+  <!-- End-->
+   <!-- National News Top-->
+  {{#if national}}
+  <div class="row" data-aos="fade-up">
+
+    <div class="col-lg-9 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=national'">
+            National News (View All)
+          </div>
+          {{#list national}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=national&id={{id}}'">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img src="images/news/national/{{imageName}}" alt="thumb" class="img-fluid" />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold">National News</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8  grid-margin">
+              <h2 class="mb-2 font-weight-600">
+                {{title}}
+              </h2>
+              <div class="fs-13 mb-2">
+                <span class="mr-2">NEH</span>{{publishedAt}}
+              </div>
+              <p class="mb-0 a-black">
+                {{description}}
+              </p>
+            </div>
+          </div>
+          {{/list}}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body advertisements">
+          <img src="https://dummyimage.com/300x300/c2c0c2/2e2e33.jpg&text=ads+go+here" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+  <!-- End-->
+    <!-- politics News Top-->
+  {{#if politics}}
+  <div class="row" data-aos="fade-up">
+
+    <div class="col-lg-9 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=politics'">
+            Politics News (View All)
+          </div>
+          {{#list politics}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=politics&id={{id}}'">
+         
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">             
+                <div class="rotate-img">
+                  <img src="images/news/politics/{{imageName}}" alt="thumb" class="img-fluid" />
+                </div>
+               
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold">Politics News</span>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-8  grid-margin">
+              <h2 class="mb-2 font-weight-600">
+                {{title}}
+              </h2>
+              <div class="fs-13 mb-2">
+                <span class="mr-2">NEH</span>{{publishedAt}}
+              </div>
+              <p class="mb-0 a-black">
+                {{description}}
+              </p>
+            </div>
+          </div>
+          {{/list}}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body advertisements">
+          <img src="https://dummyimage.com/300x300/000/d5d5e0.jpg&text=ads+go+here" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+  <!-- End-->
+    <!-- sports News Top-->
+  {{#if sports}}
+  <div class="row" data-aos="fade-up">
+
+    <div class="col-lg-9 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=sports'">
+            Sports News (View All)
+          </div>
+          {{#list sports}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=sports&id={{id}}'">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img src="images/news/sports/{{imageName}}" alt="thumb" class="img-fluid" />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold">Sports News</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8  grid-margin">
+              <h2 class="mb-2 font-weight-600">
+                {{title}}
+              </h2>
+              <div class="fs-13 mb-2">
+                <span class="mr-2">NEH</span>{{publishedAt}}
+              </div>
+              <p class="mb-0 a-black">
+                {{description}}
+              </p>
+            </div>
+          </div>
+          {{/list}}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body advertisements">
+          <img src="https://dummyimage.com/300x300/c2c0c2/2e2e33.jpg&text=ads+go+here" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+  <!-- End-->
+     <!-- entertainment News Top-->
+  {{#if entertainment}}
+  <div class="row" data-aos="fade-up">
+
+    <div class="col-lg-9 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=entertainment'">
+            Entertainment News (View All)
+          </div>
+          {{#list entertainment}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=entertainment&id={{id}}'">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img src="images/news/entertainment/{{imageName}}" alt="thumb" class="img-fluid" />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold">Entertainment News</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8  grid-margin">
+              <h2 class="mb-2 font-weight-600">
+                {{title}}
+              </h2>
+              <div class="fs-13 mb-2">
+                <span class="mr-2">NEH</span>{{publishedAt}}
+              </div>
+              <p class="mb-0 a-black">
+                {{description}}
+              </p>
+            </div>
+          </div>
+          {{/list}}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body advertisements">
+          <img src="https://dummyimage.com/300x300/c2c0c2/2e2e33.jpg&text=ads+go+here" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+  <!-- End-->
+     <!-- International News Top-->
+  {{#if international}}
+  <div class="row" data-aos="fade-up">
+
+    <div class="col-lg-9 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=international'">
+            International News (View All)
+          </div>
+          {{#list international}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=international&id={{id}}'">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img src="images/news/international/{{imageName}}" alt="thumb" class="img-fluid" />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold">International News</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8  grid-margin">
+              <h2 class="mb-2 font-weight-600">
+                {{title}}
+              </h2>
+              <div class="fs-13 mb-2">
+                <span class="mr-2">NEH</span>{{publishedAt}}
+              </div>
+              <p class="mb-0 a-black">
+                {{description}}
+              </p>
+            </div>
+          </div>
+          {{/list}}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body advertisements">
+          <img src="https://dummyimage.com/300x300/c2c0c2/2e2e33.jpg&text=ads+go+here" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+  <!-- End-->
+    <!-- Region News Top-->
+  {{#if region}}
+  <div class="row" data-aos="fade-up">
+
+    <div class="col-lg-9 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=region'">
+            Region News (View All)
+          </div>
+          {{#list region}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?region=region&id={{id}}'">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img src="images/news/{{imageName}}" alt="thumb" class="img-fluid" />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold">Region News</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8  grid-margin">
+              <h2 class="mb-2 font-weight-600">
+                {{title}}
+              </h2>
+              <div class="fs-13 mb-2">
+                <span class="mr-2">NEH</span>{{publishedAt}}
+              </div>
+              <p class="mb-0 a-black">
+                {{description}}
+              </p>
+            </div>
+          </div>
+          {{/list}}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body advertisements">
+          <img src="https://dummyimage.com/300x300/c2c0c2/2e2e33.jpg&text=ads+go+here" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+  <!-- End-->
+     <!-- Tourism News Top-->
+  {{#if tourism}}
+  <div class="row" data-aos="fade-up">
+
+    <div class="col-lg-9 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=tourism'">
+            Tourism News (View All)
+          </div>
+          {{#list tourism}}
+          <div class="row cursor-pointer" onclick="window.location.href = '/news?region=tourism&id={{id}}'">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img src="images/news/{{imageName}}" alt="thumb" class="img-fluid" />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold">Tourism News</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8  grid-margin">
+              <h2 class="mb-2 font-weight-600">
+                {{title}}
+              </h2>
+              <div class="fs-13 mb-2">
+                <span class="mr-2">NEH</span>{{publishedAt}}
+              </div>
+              <p class="mb-0 a-black">
+                {{description}}
+              </p>
+            </div>
+          </div>
+          {{/list}}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 stretch-card grid-margin">
+      <div class="card">
+        <div class="card-body advertisements">
+          <img src="https://dummyimage.com/300x300/c2c0c2/2e2e33.jpg&text=ads+go+here" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
   <!-- End-->
   <!-- DailyNewsAlbum-->
   <div class="row" data-aos="fade-up ">

@@ -29,6 +29,9 @@ hbs.handlebars.registerHelper("latestnews", function(context, options) {
   
     return ret ;
   });
+  hbs.handlebars.registerHelper('check', function(value, comparator) {
+    return (value === comparator) ? 'No content' : value;
+});
 
   hbs.handlebars.registerHelper("list", function(context, options) {
     var ret;  

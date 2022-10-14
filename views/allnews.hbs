@@ -5,18 +5,18 @@
                   <div class="row">
                     <div class="col-sm-12">
                       <h1 class="font-weight-600 mb-4">
-                        {{category}} 
+                        {{title}} 
                       </h1>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-lg-8">
                      {{#each allnews}}
-                      <div class="row"  onclick="window.location.href = '/news?id={{this.id}}'">
+                      <div class="row cursor-pointer"  onclick="window.location.href = '/news?category={{../category}}&id={{this.id}}'">
                         <div class="col-sm-4 grid-margin">
                           <div class="rotate-img">
                             <img
-                              src="images/news/{{this.urlToImage}}"
+                              src="images/news/{{../category}}/{{this.imageName}}"
                               alt="banner"
                               class="img-fluid"
                             />
@@ -27,7 +27,7 @@
                           {{this.title}}
                           </h2>
                           <p class="fs-13 text-muted mb-0">
-                            <span class="mr-2">Photo </span>10 Minutes ago
+                            <span class="mr-2">NEH </span>{{publishedAt}}
                           </p>
                           <p class="fs-15">
                            {{this.description}}

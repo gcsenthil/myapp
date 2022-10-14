@@ -10,11 +10,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-10 img">
-                  <img src="images/news/{{data.urlToImage}}" alt="image"/>
+                  <img src="images/news/{{category}}/{{data.imageName}}" alt="image"/>
                   <p class="fs-13 text-muted mb-0">NEH Report</p>
                 </div>
                 <div class="col-lg-2"> 
-                  <div class="share-btn" data-url="https://www.neherald.com/{{data.url}}" data-title="{{data.title}}" data-desc="{{data.description}}">
+                  <div class="share-btn" data-url="https://www.neherald.com/news?category={{category}}&id={{data.id}}" data-title="{{data.title}}" data-desc="{{data.description}}">
                    <div class="row">
                      <div class="col-lg-12 mt-4 mb-4 social-btn">
                          <a class="btn-facebook" data-id="fb"><i class="mdi mdi-facebook"></i>Facebook</a>

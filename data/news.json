@@ -2,21 +2,10 @@
     "totalResults":"8",
     "news":
     {
-        "global":[  
-            {
-                "id":"G151020221",               
-                "category":"NEH Report",
-                "shortTitle":"Headline Today",   
-                "author":"Our Correspondent",
-                "title":"Every health centre of the state is being converted to Health & Wellness Centre: CM",
-                "description":"The government continues to make efforts towards development of health services in the state. The government has prioritized infrastructural development of health to provide all kinds of modern treatment facilities across the state, said Chief Minister Dr Manik Saha",
-                "imageName":"G151020221.jpg",
-                "publishedAt":"Agartala, October 15, 2022",
-                "content":"<p>The government continues to make efforts towards development of health services in the state. The government has prioritized infrastructural development of health to provide all kinds of modern treatment facilities across the state, said Chief Minister Dr Manik Saha.</p><p>Addressing the 4th anniversary of Ayushman Bharat PM Jan Arogya Yojana and 1st anniversary of Ayushman Bharat Digital Mission at Rabindra Satabarshiki Bhavan on Saturday , the Chief Minister said that each and every health centre of the state is being converted to Health & Wellness Centre.</p><p>He said, Ayushman Bharat PM Jan Arogya Yojana is one huge health insurance scheme in the world. Prime Minister Narendra Modi has been appreciated in the world arena for its successful implementation. Under the scheme, the beneficiary families are getting cashless assistance of up to 5 lakh rupees for treatment purposes.</p><p>This has somewhat lessened the burden of the weaker section of people in terms of getting treatment facilities. The Chief Minister said, Tripura as compared to other states is not behind in any case in terms of healthcare services. It is important to build good relations between doctors and patients to provide good service. The patient and their family also must have faith in the doctors and their treatment. The Chief Minister also emphasized upon keeping cordial behavior with the patient and their families. He mentioned the efforts of the government towards upgradation of Tripura Medical College to the level of RIIMS and NEIGRIHMS, setting up of AIIMS hospital and a dental college. He also spoke about the important role of ASHA and healthcare workers in the successful Mukhyamantri Sustha Shaishab, Sustha Kaishor campaign.</p><p>He said, the government is giving great importance to setting up of modern health infrastructure in the state. The Oxygen plant set up in IGM and AGMC hospital is the largest of its kind in the Northeast. He also spoke on different initiatives being taken by the government towards empowering women. Chief Secretary J. K. Sinha mentioned about the important role of the healthcare workers in terms of providing benefits of different health related schemes of the government till the last person of the society. Director of Guwahati based Regional Resource Centre Dr. Ashok Roy also spoke on the occasion. Secretary of Health & Family Welfare department Dr. Debashish Basu and other officials were present during the programme. Welcome speech was delivered by Chief Executive Officer of Tripura Health Safety Samiti Subhendu Debbarma. Vote of Thanks was delivered by Director of Family Welfare & Preventive Medicines department Dr. Radha Debbarma.</p><p>A documentary was shown on the success of Ayushman Bharat PM Jan Arogya Yojana and of Ayushman Bharat Digital Mission. The Chief Minister interacted with beneficiaries who have benefitted under Ayushman Bharat PM Jan Arogya Yojana. A logo of the Health & Family Welfare department was also launched by the Chief Minister in the programme. For the successful implementation of Ayushman Bharat PM Jan Arogya Yojana, District Program Coordinators from different districts and the beneficiaries brought under the scheme were felicitated in the programme. Arogya Mitras were awarded on the ground of best implementation, issuance of the largest number of Ayushman cards and admitting patients to the hospital. Besides this, different health institutions were awarded for the issue of Abha card, National Quality Assurance Standard and implementation of Lakshya programme. The awards were handed over by the Chief Minister and the guests.</p>"
-            },  
+        "global":[           
             {
                 "id":"G141020221",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "shortTitle":"Headline Today",   
                 "author":"Our Correspondent",
                 "title":"CM inaugurates newly built Vigyan Bhawan of Ramkrishna College in Kailasahar",
@@ -27,7 +16,7 @@
             },           
             {
                 "id":"G131020221",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "shortTitle":"Headline Today",   
                 "author":"Our Correspondent",
                 "title":"President flags off two trains connecting Agartala with Guwahati, Manipur and Kolkata",
@@ -40,7 +29,7 @@
         "tripura":[
             {
                 "id":"T151020221",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"More leaders to join Tipra-Motha to strengthen Tipraland demand, Pradyot",
                 "description":"Before the ensuing 2023 assembly elections in Tripura, the regional Tipra-Motha will not leave any stone unturned to win the elections to fulfill their main demand of ‘greater Tipraland’, said Tipra-Motha’s chairman Pradyot Kishore Debbarma.",
@@ -51,7 +40,7 @@
             },
             {
                 "id":"T151020222",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"13 TPS, IPS officers transferred",
                 "description":"In another administrative reshuffle, altogether 13 police officers including one IPS and 12 TPS Grade-II officers in different wings of state police.",
@@ -62,7 +51,7 @@
             },
             {
                 "id":"T151020223",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"15 noted thieves arrested in last 18 days by city police",
                 "description":" One after one successive operation, the capital city police has managed to curb growing incidents of stolen cases across the city and within the last 18 days, altogether 15 noted thieves were arrested only by West Agartala police station.",
@@ -73,7 +62,7 @@
             },
             {
                 "id":"T151020222",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"More leaders to join Tipra-Motha to strengthen Tipraland demand, Pradyot",
                 "description":"Before the ensuing 2023 assembly elections in Tripura, the regional Tipra-Motha will not leave any stone unturned to win the elections to fulfill their main demand of ‘greater Tipraland’, said Tipra-Motha’s chairman Pradyot Kishore Debbarma.",
@@ -84,7 +73,7 @@
             },
             {
                 "id":"T141020221",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Ruling ally IPFT MLA Dhananjay Tripura resigns from state assembly, will join Tipra-Motha",
                 "description":" In another sudden political development and  yet another big blow to the regional Indigenous Peoples Front of Tripura (IPFT) , ruling alliance of BJP-IPFT Tripura government, IPFT MLA from Raima Valley constituency (Gandacherra) Dhananjay Tripura on Friday submitted  his resignation as MLA from the state assembly and joined the ‘Tipra Motha’ party.",
@@ -95,7 +84,7 @@
             },
             {
                 "id":"T141020222",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Prime accused of Aparna Karmakar rape and murder arrested",
                 "description":"The murder mystery of a woman identified as Aparna Karmakar Ghosh (43), in which police recovered her body from a drain at tri-junction area of Kalyani and Water Supply road under East Agartala police station on October 12 afternoon, the Agartala city police has arrested prime accused and two other persons on suspicious ground.",
@@ -106,7 +95,7 @@
             },
             {
                 "id":"T131020221",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Body recovered from drain identified, one detain for suspected murder",
                 "description":"The body of a woman recovered in mysterious condition from a drain located at the busiest tri-junction area of Kalyani and Water Supply road under East Agartala police station in drain on Wednesday afternoon has been identified and one suspected killer has also been detained by the city police.",
@@ -116,7 +105,7 @@
             },
             {
                 "id":"T131020222",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"CPI (M) to organize mass rally on Oct 21 in Agartala against failure of BJP govt",
                 "description":"TJust few months before the Tripura assembly elections, opposition CPI(M) will organize a mass rally at Vivekananda stadium on October 21 next against the ‘misrule’ of BJP-IPFT government",
@@ -127,7 +116,7 @@
             
             {
                 "id":"T121020221",                          
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Tripura will play an important role in making India a five trillion dollar economy by 2025, President",
                 "description":"The President Droupadi Murmu has given a rousing welcome on Wednesday morning in the Agartala airport followed by a special gesture; the President  was accorded an all women Guard of Honour by the Tripura Police.",
@@ -137,7 +126,7 @@
             },           
             {
                 "id":"T121020222",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Unidentified woman body recovered from drain in Agartala city",
                 "description":"Amidst tight security across Agartala city over the visit of President Droupadi Murmu, a body of an unidentified woman was recovered in mysterious condition at the busiest tri-junction area of Kalyani and Water Supply road under East Agartala police station in drain on Wednesday afternoon.",
@@ -147,7 +136,7 @@
             },
             {
                 "id":"T121020223",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Tripura ready to welcome President Droupadi Murmu",
                 "description":"All preparations for the maiden visit of the President Droupadi Murmu in Tripura has been completed by the state administration with deployment of a large number of security forces in all venues in Agartala city and Udaipur.",
@@ -157,7 +146,7 @@
             },
             {
                 "id":"T121020224",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"64 voters from PCC to cast votes for AICC president’s election",
                 "description":"A total of 64 voters from Tripura Pradesh Congress Committee (TPCC) are eligible to cast their votes  for the election to the post of All India Congress Committee (AICC) president scheduled to come off on October 17.",
@@ -167,7 +156,7 @@
             },
             {
                 "id":"T121020225",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Opposition will boycott President’s programmes",
                 "description":"Opposition CPI(M) welcomed the two days visit of President Droupadi Murmu in Tripura starting from Wednesday, but decided to abstain from two programmes including a civic reception programme by Agartala Municipal Corporation (AMC)",
@@ -177,7 +166,7 @@
             },
             {
                 "id":"T121020226",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"NF Railways to upscale its services and infrastructure in Tripura",
                 "description":"In a bid to enhance connectivity and improve services for the state the NF Railway has taken several measures including improving track and infrastructure, providing additional trains, and improving goods movement in the region.",
@@ -187,7 +176,7 @@
             },
             {
                 "id":"T121020227",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"President Murmu on two-day visit to Tripura arrived",
                 "description":"Amidst tight security President Droupadi Murmu arrived Agartala on Wednesday at 11.20 AM on her maiden two-day visit to the state.",
@@ -197,7 +186,7 @@
             },
             {
                 "id":"T101020221",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Govt committed for zero tolerance against drug trafficking, border security to be strengthen,  CM",
                 "description":"The central government has stressed for concrete efforts by all agencies with better coordination among themselves along with neighbouring Bangladesh to control the drug trafficking in the region, said Chief Minister Dr Manik Saha.",
@@ -207,7 +196,7 @@
             },
             {
                 "id":"T101020222",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Massive security arrangements made for President visit",
                 "description":"Amidst tight security, massive preparation is going on in Agartala for the maiden visit of the President Droupadi Murmu, who will visit the state for two days from October 12 and will inaugurate a number of developmental projects in the state.",
@@ -217,7 +206,7 @@
             },
             {
                 "id":"T101020223",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"City police arrested 13 bike lifters, 5 stolen bikes recovered in past 15 days",
                 "description":"In the past fortnight, the Agartala city police have arrested 13 motor bike lifters and seized 5 stolen motorcycles under their possessions.",
@@ -227,7 +216,7 @@
             },
             {
                 "id":"T091020221",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Security agencies must destroy all routes of drug trafficking:  Amit Shah",
                 "description":"The Union Home Minister Amit Shah on Saturday stressed that seizing narcotics alone cannot make the country drug-free and enforcement agencies must target for  destroying all channels between traffickers and consumers.",
@@ -237,7 +226,7 @@
             },
             {
                 "id":"T091020222",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"AIKS demands immediate roll back of hiked CNG prices",
                 "description":"The Tripura state committee of All India Kisan Sabha (AIKS) demanded immediate rollback abnormally hiked prices of CNG.",
@@ -247,7 +236,7 @@
             },
             {
                 "id":"T091020223",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"President Murmu to visit Tripura on Oct 12",
                 "description":"The President Droupadi Murmu will visit Tripura for two days from October 12 and will inaugurate a number of developmental projects in the state.",
@@ -257,7 +246,7 @@
             },
             {
                 "id":"T091020224",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Police destroyed huge quantities of seized drugs",
                 "description":"As part of nationwide destruction of seized drugs and contraband items, the Tripura State Level Drug Disposal Committee headed by DIGP (Southern Range) destroyed huge quantities of drugs and other contraband items, worth of cores, during the past two days.",
@@ -267,7 +256,7 @@
             },
             {
                 "id":"T071020221",               
-               "category":"NEH Report",
+               "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"President Murmu to visit Tripura for two days from Oct 13",
                 "description":"The President Droupadi Murmu will visit Tripura for two days from October 13  and will  inaugurate a number of  developmental projects in the state.",
@@ -277,7 +266,7 @@
             },
             {
                 "id":"T071020222",               
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"City police burst motorbike lifter gang, one arrested",
                 "description":" In a successful attempt, the Agartala city police have burst a gang of motorcycle lifters and arrested a kingpin and seized two stolen motorcycles",
@@ -287,7 +276,7 @@
             },
             {
                 "id":"T061020221",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Durga puja passed off peacefully barring some stray incidents",
                 "description":"The Durga Puja, biggest festival of Tripura, passed off by and large peacefully amidst incessant rain and thunderstorm with lightning across Agartala",
@@ -297,7 +286,7 @@
             },
             {
                 "id":"T061020222",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"ONGC Tripura asset celebrates Ravan Dahan event on the occasion Dussehra",
                 "description":"During the celebration of Dussehra festival as a mark of victory of good over evil, the Deputy Chief Minister of Tripura, Jishnu Dev Varma was the Chief Guest at ONGC Tripura Asset’s Ravan Dahan event.",
@@ -307,7 +296,7 @@
             },
             {
                 "id":"T061020223",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Drug rehab centre turns into a murder spot, one inmate lynched to death",
                 "description":"The mushrooming private drug rehabilitation centers across Tripura, now turns into a centre criminal syndicates with allegation of distribution of drugs and involvement in other criminal activities including murder related crime, which  are gradually turns into a  issue of serious concern.",
@@ -318,7 +307,7 @@
             {
                 "id":"T061020224",
                 "name":"CM kicked off grand ‘Mayer Goman’ festival",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"CM kicked off grand ‘Mayer Goman’ festival",
                 "description":"The great and colourful immersion carnival festival “Mayer Goman” has been kicked off by the Chief Minister Dr Manik Saha in presence of a host of dignitaries from Agartala city centre on Friday evening.",
@@ -328,7 +317,7 @@
             },          
             {
                 "id":"T041020221",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"ECI gears up for 2023 assembly polls in Tripura, dispatches new EVMs",
                 "description":"The Election Commission of India (ECI) as part of its preparation of 2023 assembly elections in Tripura , a total of 4800 EVMs, 4900 VVPATs and same number of control units dispatched in the state and these machines has also arrived in the state  capital.",
@@ -338,7 +327,7 @@
             },
             {
                 "id":"T021020221",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"Amidst festival abrupt hike in CNG prices, protest demanding roll back",
                 "description":"Amidst festivities of Durga Puja, Tripura Natural Gas Company Limited (TNGCL) on Saturday increased the prices of Compressed Natural Gas (CNG) with effect from October 2nd.",
@@ -348,7 +337,7 @@
             },
             {
                 "id":"T011020221",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"All TET qualified teachers to get offers, 15 % hike in salaries of Anganwadi, ASHA workers",
                 "description":"The state is going to celebrate the Durga Puja festival with a bunch of good news including offer of appointment for 3,108 TET teachers, 6,067 Special Executives in the police department, a 15 % hike in salaries for Anganwadi and ASHA workers",
@@ -358,7 +347,7 @@
             },
             {
                 "id":"T011020222",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"85 TPS Gr-I, II officers transferred",
                 "description":"In a major administrative reshuffle, altogether 85 TPS Grade-I and II officers transferred and posted in different wings of state police",
@@ -368,7 +357,7 @@
             },
             {
                 "id":"T011020223",
-                "category":"NEH Report",
+                "category":"NEH",
                 "author":"Our Correspondent",
                 "title":"CM inaugurates 5 smart city projects",
                 "description":"In order to fulfill the basic demands and rights  of people by improving their socio-economic status, the state government is working round the clock, said Chief Minister Dr Manik Saha inaugurating five new projects under Agartala Smart City project on Friday",
@@ -378,7 +367,7 @@
             },
             {
              "id":"T290920221",
-             "category":"NEH Report",
+             "category":"NEH",
              "author":"Our Correspondent",
              "title":"Snatcher gang busted in city, five arrested",
              "description":"Just a couple of days before the great festival of Durga Puja, the capital city police have busted a gang of thieves and snatchers and foiled the pre-puja snatching incidents held across Agartala city.",
@@ -388,7 +377,7 @@
          },
          {
              "id":"T290920222",
-             "category":"NEH Report",
+             "category":"NEH",
              "author":"Our Correspondent",
              "title":"Retrenched teachers hopeful after meeting with CM to get back their jobs",
              "description":"As assured in the state assembly, Chief Minister Dr Manik Saha on Wednesday met a delegation of retrenched 10, 323 teachers and assured them will take all positive steps as per law to rehabilitate them",
@@ -397,7 +386,7 @@
              "content":"<p>As assured in the state assembly, Chief Minister Dr Manik Saha on Wednesday met a delegation of retrenched 10, 323 teachers and assured them will take all positive steps as per law to rehabilitate them.</p><p>As promised in the state assembly the Chief Minister Dr Manik Saha had invited the representatives of the retrenched teachers for a discussion in his official chamber here at Civil Secretariat on Wednesday morning over the claims of retrenched teachers in presence Advocate General Siddhartha Sankar Dey and Law Secretary Biswajit Palit.</p><p>Sources said that after getting appointment and invitation from Chief Minister Office (CMO), a delegation of six members of retrenched teachers led by Bijay Krishna Saha explained how according to the High Court judgment of 2014 (Para-127) only teachers whose jobs had been challenged on the ground of recruitment rules-not more than 58-had been terminated and the same order has also been uphold by the Supreme Court in its order dated March 29th, 2017 last.</p><p>But, recently in a reply to RTI queries the Supreme Court has clarified that no teacher except the 462 notified had been parties to the case and their claims to reinstatement is justified as they had been illegally terminated en masse without any individual notice by the previous government.</p><p>After hearing the claims made by retrenched teachers, The Chief Minister had collected all the documents substantially proving their claims and Dr Saha said that he was not fully aware of all such developments over the cases of teachers, said Bijay Krishna Saha.</p><p>Saha speaking with media persons after their meeting with the Chief Minister said that CM has compassionately heard their grievance and assured that he will meet them again after Durga Puja celebration. Chief Minister also asked the agitated teachers for all relevant documents in support of their claims and assured that government will take all possible steps to rehabilitate them as per law.</p><p>Chief Minister also said that the Law department will analyze and verify all the submitted documents and after consultation with the Advocate General and Law Secretary of the state government, he will meet them again.</p><p>Bijay Krishna Saha and other retrenched teachers also added that the Chief Minister repeatedly told them within the framework of law, the present government wanted to rehabilitate and will take all necessary steps if the law and orders of Courts permit the state government.</p><p>He also directed the concerned law officials to examine the claims of teachers and to give suggestions to the state government to protect their livelihood.</p><p>The leaders of retrenched teachers have also expressed their satisfaction after meeting with the Chief Minister and added that they are now seeing a ray of hope to protect their livelihood and their families.</p><p>It may be recalled here that leader of the Opposition Manik Sarkar and the lone Congress MLA Sudip Roy Barman condemned the police action held on September 26 during ‘assembly march’ by retrenched teachers and urged the Chief Minister to meet the agitating teachers. Accordingly, their representatives called on Dr Saha on Wednesday.</p>"
          },{
             "id":"T250920221",
-            "category":"NEH Report",
+            "category":"NEH",
             "author":"Our Correspondent",
             "title":"Opposition stage walkout over adjournment motion",
             "description":"Opposition CPI(M) on the first day of 12th session of the 12thassembly staged walkout on Friday",
@@ -407,7 +396,7 @@
         },
         {
             "id":"T250920222",
-            "category":"NEH Report",
+            "category":"NEH",
             "author":"Our Correspondent",
             "title":"Govt to recruit all TET qualified candidates at a time",
             "description":"As assured by the state government, the Education Minister Ratan LalNath in the first day of assembly session",
@@ -417,7 +406,7 @@
         },
         {
             "id":"T250920223",
-            "category":"NEH Report",
+            "category":"NEH",
             "author":"Our Correspondent",
             "title":"CM stress on the role of MLAs to strengthen democracy, four MLAs missing assembly",
             "description":"As assured by the state government, the Education Minister Ratan LalNath in the first day of assembly session",
@@ -427,7 +416,7 @@
         },
         {
             "id":"T250920224",
-            "category":"NEH Report",
+            "category":"NEH",
             "author":"Our Correspondent",
             "title":"Massive preparations for grand celebration of “Mayer Goman”",
             "description":"In order to ensure great immersion carnival festival “Mayer Goman”, a historic event for the state’s people, the Information and Cultural Affairs (ICA) department has taken massive initiative   to make the festival as a grand event",
@@ -437,7 +426,7 @@
         },
         {
             "id":"T250920225",
-            "category":"NEH Report",
+            "category":"NEH",
             "author":"Our Correspondent",
             "title":"Kingpins of dacoity incident arrested",
             "description":"After one month of dreaded dacoity incidents held at East Aralia and Baldakhal, the police have also managed to arrest  another kingpin  involved in the dacoity incident held at Baldakhal on August 23rd night.</p><p>Police sources said that based on the dacoity case registered at Budhjungnagar police station on August 24 last",
@@ -447,7 +436,7 @@
         },
         {
             "id":"T250920226",
-            "category":"NEH Report",
+            "category":"NEH",
             "author":"Our Correspondent",
             "title":"Three missing minor girls rescued",
             "description":"The state police within 24-hours of the missing incident of three minor girls from Lalcherri village under Ambassa police station were rescued on Sunday",
@@ -457,7 +446,7 @@
         },
         {
             "id":"T250920227",
-            "category":"NEH Report",
+            "category":"NEH",
             "author":"Our Correspondent",
             "title":"Pharmacists plays important role in health services, CM",
             "description":"The services of pharmacists are like the services of doctors, nurses and paramedics are also very important for overall health services, said Chief Minister Dr Manik Saha",
@@ -469,7 +458,7 @@
         "national":[
             {
                 "id":"N151020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Kashmiri Pandit shot dead in Shopian, Kashmir Freedom Fighter group claims responsibility",
                 "description":" In yet another episode of targeted attack, a non-migrant Kashmiri Pandit was shot dead in Shopian district of Jammu and Kashmir on Saturday, police said.",
@@ -479,7 +468,7 @@
             },
             {
                 "id":"N151020222",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"3rd IVI International Optometry Conference opens in Chennai with call for action on Uncorrected Refractive Error, myopia",
                 "description":"The 3rd IVI International Optometry - Eye Health in a Changing World Conference opened in Chennai on Friday with the call to address eye health problems, including Uncorrected Refractive Error and myopia",
@@ -489,7 +478,7 @@
             },
             {
                 "id":"N151020223",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Police seize 218 kg of Ganja in Assam's Sonitpur",
                 "description":"Police on Saturday seized 218 kg of Ganja from a four wheeler vehicle in Assam's Sontipur area.",
@@ -499,7 +488,7 @@
             },
             {
                 "id":"N141020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Seat belts mandatory for all 4-wheeler passengers from Nov 1 in Mumbai",
                 "description":"Bollywood actress and fashionista Sonam Kapoor gave a peek of her Karwa Chauth dress up even as she did not fast for the occasion.",
@@ -511,7 +500,7 @@
         "politics":[
             {
                 "id":"P151020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"PM Narendra Modi to inaugurate PM Kisan Samman Sammelan on Oct 17",
                 "description":"PM Narendra Modi will inaugurate the two-day event “PM Kisan Samman Sammelan 2022” on Oct 17 at around 11:30 AM at Indian Agricultural Research Institute, New Delhi.",
@@ -521,7 +510,7 @@
             },
             {
                 "id":"P151020222",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"India now ranks 107 in Global Hunger Index, Chidambaram slams Centre",
                 "description":" India has slipped to the 107th position in the Global Hunger Index 2022, even behind immediate neighbours like Pakistan, Bangladesh, Sri Lanka and Nepal, as per the website of Global Hunger Index which released the ranking on Saturday.",
@@ -531,7 +520,7 @@
             },
             {
                 "id":"P141020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Election Commission likely to announce assembly poll dates for Gujarat, Himachal Pradesh today",
                 "description":"The Election Commission of India (ECI) is likely to announce the dates for upcoming assembly elections in Gujarat and Himachal Pradesh Friday.",
@@ -543,7 +532,7 @@
         "sports":[
             {
                 "id":"S151020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"PM Modi congratulates Indian women's cricket on Asia Cup Win; lauds 'outstanding' teamwork",
                 "description":"Prime Minister Narendra Modi has congratulated the Indian women's team on their Asia Cup triumph.",
@@ -553,7 +542,7 @@
             },
             {
                 "id":"S151020222",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"After unceremonious BCCI exit, Sourav Ganguly set to contest CAB presidential polls",
                 "description":"Days after he was denied a second term in the Indian cricket board (BCCI), former skipper Sourav Ganguly has announced his decision to contest the upcoming presidential elections in Bengal cricket's governing body CAB, media reports said",
@@ -563,7 +552,7 @@
             },
             {
                 "id":"S151020223",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Australia, New Zealand T20 World Cup Super 12 Opener Sold Out",
                 "description":" Hosts Australia will begin their title defence at the ICC Men’s T20 World Cup in front of a capacity crowd at the Sydney Cricket Ground, with the opening Super 12 clash officially declared a sell-out.",
@@ -573,7 +562,7 @@
             },
             {
                 "id":"S141020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Sourav Ganguly's BCCI president stint: List of drives and misses",
                 "description":"Former Indian skipper Sourav Ganguly's stint as the country's cricket board (BCCI) president is nearing an end as he has been controversially denied a second term in the governing body by the officials",
@@ -585,7 +574,7 @@
         "entertainment":[
             {
                 "id":"E151020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Joy Sengupta, Saayoni Ghosh starrer Bengali film City of Jackals' poster and teaser unveiled",
                 "description":"The poster and teaser of actor-politician Joy Sengupta and Saayoni Ghosh starrer upcoming Bengali film City of Jackals was unveiled last week in the city.",
@@ -595,7 +584,7 @@
             },
             {
                 "id":"E151020222",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Sharmila Tagore steals hearts again as she recreates her iconic 'Mere Sapno Ki Rani' moments with Aditya Narayan",
                 "description":"The Indian audience is set to fall in love all over again with the Bollywood beauty of the yesteryears, Sharmila Tagore, with her appearance in the singing reality show Indian Idol 13 where they will see her recreating one of her most iconic on-screen moments from the 1969 hit film Aradhana.",
@@ -605,7 +594,7 @@
             },
             {
                 "id":"E141020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"Sonam Kapoor gives us a sneak peek at her stunning look from Karwa Chauth. Check out",
                 "description":"Bollywood actress and fashionista Sonam Kapoor gave a peek of her Karwa Chauth dress up even as she did not fast for the occasion.",
@@ -617,7 +606,7 @@
         "international":[
             {
                 "id":"I151020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"'Erroneous measure of hunger': India rejects Global Hunger Index ranking",
                 "description":"The world is at risk of yet another year of record hunger as the global food crisis continues to drive more people into worsening levels of acute food insecurity, The World Food Programme (WFP) warned on Thursday",
@@ -627,7 +616,7 @@
             },
             {
                 "id":"I141020221",               
-                "category":"NEH Report",
+                "category":"IBNS",
                 "author":"Our Correspondent",
                 "title":"World Food Day: Another year of global record hunger looms amid food and climate crisis",
                 "description":"The world is at risk of yet another year of record hunger as the global food crisis continues to drive more people into worsening levels of acute food insecurity, The World Food Programme (WFP) warned on Thursday",

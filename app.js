@@ -12,6 +12,7 @@ const { Readable } = require('stream')
 var Gallery = require('express-photo-gallery');
 var robots =require('express-robots-txt')
 global.__basedir = __dirname
+var app = express();
 
 var options = {
   title: 'NEH Photo Gallery'
@@ -23,13 +24,33 @@ var DailyOptions = {
 var PresidentOptions = {
   title: 'President Visit Photo Album'
 };
+var CMOptions = {
+  title: 'CM Album'
+};
+var InterOfficeOptions = {
+  title: 'Inter Office Sports'
+}
+var STGTOptions = {
+  title: ' STGT candidates meets CM'
+}
+var AmaraBengali = {
+  title: 'Amara bengali'
+}
+
+app.use('/photos', Gallery('public/images/gallery/DurgaPuja', options));
+app.use('/dailynewsphoto', Gallery('public/images/gallery/DailyNewsPholoAlbum', DailyOptions));
+app.use('/presidentphoto', Gallery('public/images/gallery/PresidentDroupadiMurmu', PresidentOptions));
+app.use('/cm', Gallery('public/images/gallery/CM', CMOptions));
+app.use('/officesports', Gallery('public/images/gallery/officesports', InterOfficeOptions));
+app.use('/stgt', Gallery('public/images/gallery/stgt', STGTOptions));
+app.use('/amarabengali', Gallery('public/images/gallery/amarabengali', AmaraBengali));
 
 // Validate our settings schema
 const Ajv = require('ajv');
 const ajv = new Ajv({ useDefaults: true });
 
 
-var app = express();
+
 let sitemap
 
 
@@ -128,9 +149,7 @@ app.get('/article/arindamnath', function(req, res) {
 })
 
 app.set('view engine', 'hbs');
-app.use('/photos', Gallery('public/images/gallery/DurgaPuja', options));
-app.use('/dailynewsphoto', Gallery('public/images/gallery/DailyNewsPholoAlbum', DailyOptions));
-app.use('/presidentphoto', Gallery('public/images/gallery/PresidentDroupadiMurmu', PresidentOptions));
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

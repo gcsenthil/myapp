@@ -327,7 +327,7 @@ $.fn.easeScroll = function(options) {
           }
         );
       })(),
-      K = /chrome|iPad/i.test(window.navigator.userAgent),
+      K = /chrome|iPad/i.test(window. .userAgent),
       L = "onmousewheel" in document;
     L &&
       K &&

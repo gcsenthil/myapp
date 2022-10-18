@@ -11,6 +11,7 @@
     "ajv-errors": "^3.0.0",
     "body-parser": "^1.20.0",
     "bootstrap": "^4.4.1",
+    "bootstrap-scss": "^5.2.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",

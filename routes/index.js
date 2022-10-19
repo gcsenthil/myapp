@@ -40,6 +40,7 @@ router.get('/', function(req, res, next) {
   region:newsdata.news.region.slice(0,3),
   tourism:newsdata.news.tourism.slice(0,3),
   entertainment:newsdata.news.entertainment.slice(0,3),
+  imggallery:newsdata.news.imagegallery.slice(0,10)
   });
 });
 

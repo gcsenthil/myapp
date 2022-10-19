@@ -29,9 +29,30 @@ hbs.handlebars.registerHelper("latestnews", function(context, options) {
   
     return ret ;
   });
+  hbs.handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
+    return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
+});
+hbs.handlebars.registerHelper('ifNotEquals', function(arg1, arg2, options) {
+    return (arg1 != arg2) ? options.fn(this) : options.inverse(this);
+});
   hbs.handlebars.registerHelper('check', function(value, comparator) {
     return (value === comparator) ? 'No content' : value;
 });
+hbs.handlebars.registerHelper('eachData', function(context, options) {
+    var fn = options.fn, inverse = options.inverse, ctx;
+    var ret = "";
+
+    if(context && context.length > 0) {
+      for(var i=0, j=context.length; i<j; i++) {
+        ctx = Object.create(context[i]);
+        ctx.index = i;
+        ret = ret + fn(ctx);
+      }
+    } else {
+      ret = inverse(this);
+    }
+    return ret;
+}); 
 
   hbs.handlebars.registerHelper("list", function(context, options) {
     var ret;  

@@ -884,7 +884,173 @@
 
         ],
         "region":[],
-        "tourism":[]
+        "tourism":[],
+        "imagegallery":[
+            {
+
+                "url":"/G18122022",
+                "path":"images/gallery/G18122022",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Clay artisan making earthen lamps ahead of the festival of lights Deepavali at Nandan Nagar on October 18",
+                "status":"active"
+            },     
+            {
+
+                "url":"/G17122022",
+                "path":"images/gallery/G17122022",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Chief Minister Dr Manik Saha attends a blood donation camp organized by Chemist and Drugist association of Tripura at Agartala on October 17",
+                "status":""
+            },          
+            {
+
+                "url":"/unemployed",
+                "path":"images/gallery/unemployed",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"unemployed pharmacist of Tripura held a pressmeet in Agartala on Oct 16",
+                "status":""
+            },
+            {
+
+                "url":"/swarnakamal",
+                "path":"images/gallery/swarnakamal",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Swarna Kamal jewellers held a pressmeet in Agartala on Oct 16",
+                "status":""
+            },
+            {
+
+                "url":"/maniksarka",
+                "path":"images/gallery/maniksarka",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Opposition leader Manik Sarkar was the speaker at the meeting of Tripura Sabha Sunder Development Association in Agartala on Oct 16",
+                "status":""
+            },
+            {
+
+                "url":"/chowdhury",
+                "path":"images/gallery/chowdhury",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Minister Sushant Chowdhury was present on Sunday to inaugurate two state digital banks along with All India on Oct 16 ",
+                "status":""
+            },
+            {
+
+                "url":"/chibardanfestival",
+                "path":"images/gallery/chibardanfestival",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Bhutanese in Agartala with winter clothes on Oct 16",
+                "status":""
+            },
+            {
+
+                "url":"/bhutanese",
+                "path":"images/gallery/bhutanese",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Bhutanese in Agartala with winter clothes on Oct 16",
+                "status":""
+            },
+            {
+
+                "url":"/diwali",
+                "path":"images/gallery/diwali",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Candles are being made on the occasion of Diwali in Agartala on Oct 16",
+                "status":""
+            },
+            {
+
+                "url":"/cm",
+                "path":"images/gallery/cm",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Chief Minister Prof Dr Manik Saha  attend State Level Programme for 4 years completion of Ayushman Bharat at Agartala on OCT 15",
+                "status":""
+            },
+            {
+                "url":"/amarabengali",
+                "path":"images/gallery/amarabengali",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Amara bengali held a pressmeet in Agartala on Oct 15",
+                "status":""
+            },
+            {
+                "url":"/officesports",
+                "path":"images/gallery/officesports",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Inter office sports and cultural association held a pressmeet in Agartala on Oct 15",
+                "status":""
+            },
+            {
+                "url":"/stgt",
+                "path":"images/gallery/stgt",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"STGT candidates meet Minister Sushanta Chowdhury at his official residence on October 15",
+                "status":""
+            },
+            {
+                "url":"/president",
+                "path":"images/gallery/president",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"The President of India her Excellency Droupadi Murmu launches a slew of government projects including the new MLA hostel close to the Civil secretariat on October 12.",
+                "status":""
+            },
+            {
+                "url":"/winterclothsales",
+                "path":"images/gallery/winterclothsales",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Winter clothes sellers Bhuti community people installing stalls at Battala TRTC area on October 10",
+                "status":""
+            },
+            {
+                "url":"/alks",
+                "path":"images/gallery/alks",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"AIKS commemorates martyrs of farmers' movement of Golaghati at AIKS headquarters on October 10",
+                "status":""
+            },
+            {
+                "url":"/durgapuja",
+                "path":"images/gallery/durgapuja",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Idols of Devi Laxmi are being taken to homes ahead of the Laxmi Puja tomorrow at Agartala markets on October 08",
+                "status":""
+            },
+            {
+                "url":"/market",
+                "path":"images/gallery/market",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Huge crowd in Agartala markets to buy fruits for Laxmi Puja celebrations on October 08",
+                "status":""
+            },
+            {
+                "url":"/mayer",
+                "path":"images/gallery/mayer",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Mayer Gomon Agartala gears up for the mega carnival on Oct 07",
+                "status":""
+            }
+           
+           
+        ]
 
     }
 }

@@ -4,6 +4,17 @@
     {
         "global":[ 
             {
+                "id":"G241020221",               
+                "category":"NEH Report",
+                "shortTitle":"Headline Today",   
+                "author":"Our Correspondent",
+                "title":"Red alert issued for cyclonic storm on Oct 24, 25 across Tripura, state takes massive preparations",
+                "description":"Amidst red alert issued by India Meteorological Department (IMD) for extremely heavy rainfall with squally wind speed reaching 50 to 60 km per hour for all eight districts of the state on Monday and Tuesday due to low pressures and deep depression in the Bay of Bengal, entire state has been put on high alert and massive preparations has been taken for rescue and relief operations.CM chaired high level meeting for rescue and relief preparedness",
+                "imageName":"G241020221.jpg",
+                "publishedAt":"Agartala, October 24, 2022",
+                "content":"<p>Amidst red alert issued by India Meteorological Department (IMD) for extremely heavy rainfall with squally wind speed reaching 50 to 60 km per hour for all eight districts of the state on Monday and Tuesday due to low pressures and deep depression in the Bay of Bengal, entire state has been put on high alert and massive preparations has been taken for rescue and relief operations.</p><p>Chief Minister Dr Manik Saha on emergency basis chaired a high level meeting here at Civil secretariat on Sunday afternoon in presence of Chief Secretary, DGP, all principal secretaries, secretaries, officials of IMD, top officials from all concern state and central government agencies along top officials from Army, CRPF, BSF and other central security agencies. The government has already been alerted and massive precautionary measures have been taken.</p><p>After the emergency meeting giving details over the alert issued by the IMD and state’s preparations to tackle the possible cyclonic storm across all districts of the state on October 24 and 25th next, Information and Cultural Affairs (ICA) Minister  Sushanta Chowdhury accompanied by Principal Secretary of Revenue department and director of IMD, Agartala Nahush Kulkarni said that all districts of the state has been put on high alert and government has taken massive preparations for rescue and relief operations.</p><p>He said that the government has already been alerted to all district authorities for taking precautionary measures on receipt of its first warning on October 21 last and on a war footing manner relief and rescue teams including Central Para-Military Forces (CPMFs) have already deployed across the state.</p><p>Considering the gravity of the prevailing situation Chowdhury said that all educational institutions will close for the next 3 days and NDRF with other security agencies were deployed across the state for rescue and relief operations. The government has also decided that leaves of all officials have been cancelled for next one week and all special trains for the Diwali festival in Matabari have also been cancelled with immediate effect.</p><p>Sharing the state’s preparedness to tackle the cyclonic storm, Principal Secretary of Revenue department Punit Agarwal said that considering possible large gathering during the festival of Diwali and one National Disaster Response Force (NDRF) team already been deployed  and state requested  the central government  to depute 5 additional teams of NDRF  for immediate deployment across the state.</p><p>He said that movements of vehicles should be regulated throughout the state on October 24 and 25 and all line departments should  take immediate steps for preparedness and immediate response. Agarwal said that relief camps are advised to be notified and relief materials to be arranged in advance.</p><p>He said that all the district magistrates (DMs) are organizing miking to alert and aware the people of possible cyclonic storms.</p><p>Government has instructed all district magistrates to alert the National Disaster Response Force (NDRF), the State Disaster Response Force (SDRF), fire services and trained volunteers to remain ready to tackle any situation, if required along with TSR and Quick Response Teams (QRTs) to be alerted immediately.</p><p>Besides, additional volunteers as well as rescue boats, life jackets and flood rescue items will be kept ready for rescue and relief purposes. The district magistrates have been asked to monitor the flow of rivers and the situation at embankments and catchment areas before taking preventive measures.</p><p>Agarwal has also directed to keep operating pumps ready for extraction of flood water in inundated areas and to prepare to evacuate affected people from low-lying areas to safe places along with provision of relief. The response teams will be required to remove debris to restore essential services, if required by mobilizing equipment such as dozers, earth movers etc and generators should be pre-positioned at strategic locations and arrangements of adequate torch lights.</p><p>The government has also requested all NGOs, clubs and other social organizations to be engaged for their support during possible calamities.</p><p>While, Minister Sushanta Chowdhury said that the government has also requested the state people to avoid long distance journeys and all key line departments including Power, RD, health etc have been advised to visit the Matabari temple and reconfirm arrangements.</p><p>It may be recalled here that other Northeastern states, including Manipur, Nagaland, Mizoram and West Bengal, as well as Odisha are also expected to experience heavy rainfall during the period due to deep depression in Bay of Bengal</p>"
+			 },
+            {
                 "id":"G231020221",               
                 "category":"NEH Report",
                 "shortTitle":"Headline Today",   
@@ -133,6 +144,16 @@
                }          
            ], 
            "tripura":[
+            {
+                "id":"T241020221",               
+                "category":"NEH",
+                "author":"Our Correspondent",
+                "title":"Political tension rises in Kumarghat over gang rape case, three arrested so far",
+				"description":"Issuing alleged gang rape of a 16-years old minor girl inFatikroy area of Unakoti district on last Friday night, triggered massive political reaction",
+	            "imageName":"T241020221.jpg",
+                "publishedAt":"Agartala, October 24, 2022",
+                 "content":"<p>Issuing alleged gang rape of a 16-years old minor girl inFatikroy area of Unakoti district on last Friday night, triggered massive political reaction .</p><p>Opposition parties including CPI (M) and Congress alleged involvement of a minister’s son, though the victim girl in her statement recorded before the court did not mention his name.</p><p>On Sunday opposition parties and ruling parties organized processions and counter procession and after massive reaction, the police changed the investigating officer and assigned the task of investigation to Dy.SP Bina Sinha.</p><p>SDPO (Kumarghat) Kamal Debbarma  said police have arrested three persons till today. One of them is the driver of the car used to take the victim into the scene of the crime, the lady who brought the girl from her house and the third accused was an alleged rapist.</p><p>Opposition political parties including the main opposition CPI (M), Congress and  Trinamool Congress (TMC) demanding the arrest of the son of the minister staged protest demonstration in Kumarghat while the ruling party has started a counter campaign alleging that the name of the son of the minister is being dragged into the controversy for political mileage . They said the son of the minister was out of Kumarghat for the last several days and how can he be involved in the incident.</p><p>While, Congress leader Ashish Kumar Saha addressing a press conference at Congress Bhavan in Agartala on Sunday afternoon demanded an impartial probe over the incident and immediate arrest of all accused persons.</p><p>Meanwhile, BJP’s Kumarghat Mandal committee organised a rally, which passes various thoroughfares of Kumarghat and gathered at Bhagat Singh Choumohani, where they  warned the opposition political parties  to stop their agenda based politics on personal attack on their leader.</p><p>Police sources added that based on the complaint filed by the family members of the victim girl, police have arrested three persons. The Superintendent of Police(SP) of Unakoti district, Kanta Jahangir said that the medical examination of the girl has been completed  and police have now changed the case and added section 376 of the IPC</p>"
+				 },
             {
                 "id":"T231020221",               
                 "category":"NEH",
@@ -1186,12 +1207,57 @@
         "imagegallery":[
             {
 
+                "url":"/G24102022/police",
+                "path":"images/gallery/G24102022/police",
+                "imageName":"Image1.jpg",
+                "title":"",
+                "caption":"Three persons had been held and handed over to police by locals of Pragati Road for peddling drugs in the area on October 23",
+                "status":"active"
+            }, 
+            {
+
+                "url":"/G24102022/maaa",
+                "path":"images/gallery/G24102022/maaa",
+                "imageName":"Image1.jpg",
+                "title":"",
+                "caption":"Maaa Tripura Sundari temple adorned in attractive lighting days before annual Diwali Utsav celebrations at Udaipur on October 23",
+                "status":""
+            }, 
+            {
+
+                "url":"/G24102022/kali",
+                "path":"images/gallery/G24102022/kali",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Kali idols being given final touch ahead of Diwali Puja in clay studios on October 23",
+                "status":""
+            }, 
+            {
+
+                "url":"/G24102022/cm",
+                "path":"images/gallery/G24102022/cm",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Chief Minister Dr Manik Saha inaugurates the the state level Ayurveda Day celebrations at Agartala on October 23",
+                "status":""
+            }, 
+            {
+
+                "url":"/G24102022/rally",
+                "path":"images/gallery/G24102022/rally",
+                "imageName":"Image1.jpg",
+                "title":"",
+                "caption":"A Colorful Rally of 7th National Ayurveda Divas at Agartala on Oct 23",
+                "status":""
+            }, 
+            {
+
                 "url":"/G23102022/stgt",
                 "path":"images/gallery/G23102022/stgt",
                 "imageName":"Image1.jpg",
                 "title":"",
                 "caption":"STGT qualified candidates meet Education Minister Ratan Lal Nath at his residence on October 22",
-                "status":"active"
+                "status":""
             }, 
             {
 

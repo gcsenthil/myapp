@@ -1753,12 +1753,48 @@
         "imagegallery":[
             {
 
+                "url":"/G27102022/aidwa",
+                "path":"images/gallery/G27102022/aidwa",
+                "imageName":"Image1.jpg",
+                "title":"",
+                "caption":"AIDWA initiates donation collection drive ahead of State Conference at Agartala on October 27",
+                "status":"active"
+            },
+            {
+
+                "url":"/G27102022/police",
+                "path":"images/gallery/G27102022/police",
+                "imageName":"Image1.jpg",
+                "title":"",
+                "caption":"Tripura police holds bike rally to remember the martyrs at Agartala on October 27",
+                "status":""
+            },
+            {
+
+                "url":"/G27102022/education-minister",
+                "path":"images/gallery/G27102022/education-minister",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Education Minister Ratan Lal Nath reviews the progress of Prati Ghore Sushashan scheme at DM conference hall on October 27",
+                "status":""
+            },
+            {
+
+                "url":"/G27102022/sfi",
+                "path":"images/gallery/G27102022/sfi",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"SFI organizes protest in front of police headquarters demanding immediate arrest of the culprits involved in gang rape of school students at Agartala on October 27",
+                "status":""
+            },
+            {
+
                 "url":"/G26102022/teeka",
                 "path":"images/gallery/G26102022/teeka",
                 "imageName":"Image1.jpg",
                 "title":"",
                 "caption":"A sister applies teeka on the forehead of her brother on the auspicious occassion of Bhai Phota at Agartala on October 26",
-                "status":"active"
+                "status":""
             },
             {
 

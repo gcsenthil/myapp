@@ -3,6 +3,17 @@
     "news":
     {
         "global":[ 
+		    {
+                "id":"G291020221",               
+                "category":"NEH Report",
+                "shortTitle":"Headline Today",   
+                "author":"Our Correspondent",
+                "title":"Govt to introduce reservation for sport persons in govt jobs, Sushanta Chowdhury",
+                "description":"The state government in a significant step has taken a decision to introduce reservation in government jobs for sports persons.",
+                "imageName":"G291020221.jpg",
+                "publishedAt":"Agartala, October 29, 2022",
+                "content":"<p>The state government in a significant step has taken a decision to introduce reservation in government jobs for sports persons.</p><p>Addressing a press conference here at Civil Secretariat on Friday afternoon, Sports and Youth Affairs Minister Sushanta Chowdhury highlighting the developmental initiatives of the department to modernize the sport infrastructures of the state said that the government to encourage the youths of the state sport activities has decided to introduce reservation in government jobs for sports persons.</p><p>He said that soon the state cabinet will approve the decision, which would be mainly for Group-C and D categories of government posts.</p><p>He said Chief Minister Dr Manik Saha has shown his interest in the reservation proposal for sports persons that will encourage the youth to take up sports activities seriously.</p><p>The government has already collected policies for providing reservation to sports persons from various state governments including Rajasthan, Maharashtra, Uttar Pradesh, Andhra Pradesh, Orissa and Manipur and the government observed that some states are giving reservation ranging from 2 to 4 % to sports persons, said Chowdhury.</p><p>Highlighting the developmental activities in sports arena, Chowdhury said that the Centre has sanctioned Rs 39 crore for building sports infrastructures under ‘Khelo India’ scheme and the state government will provide Rs 20 crore for development of sports facilities.</p><p>He said that to develop the sports infrastructure at its best, the state’s Youth and Sports Affairs department has given maximum emphasis and  government has undertaken a massive modernisation drive, which includes funds from the Centre and the state government to upgrade the sports infrastructure in the state and help budding sportspersons make it to the big arenas.</p> <p>&quotThe government is focusing on infrastructure development under the Khelo India scheme of the Centre and special assistance funds of the state government and hopes that it will help players from all nooks and corners of the state,&quot Chowdhury said.</p><p>With fund of Rs. 5 crore a modern swimming pool construction is going on Physical Education (RCPE) in North Tripura's Panisagar, under ‘Khelo India’ scheme a synthetic football turf at Khowai HS school ground is in the final stage and a synthetic athletic turf at Badharghat stadium with a cost of Rs. 7 crore is also in final stage of construction, said Chowdhury.</p><p>He also said that four more synthetic turf has also been under construction  with a special assistance fund of Rs. 20 crore from state government including at Umakanta stadium, Sachindranagar school in Jirania, Tulakona area of Mohanpur and another one in Belonia school ground.</p><p>He said that as per a decision of the state cabinet, the recruitment process for 100 junior physical instructors are also currently going on. During the press meet, the secretary of Sports and Youth Affairs department Dr Pradip Chakraborty was also present.</p>"
+				},
 		   {
                 "id":"G281020221",               
                 "category":"NEH Report",
@@ -179,6 +190,36 @@
            ], 
            "tripura":[
 		    {
+                "id":"T291020221",               
+                "category":"NEH",
+                "author":"Our Correspondent",
+                "title":"Protests over gang rape incidents rock city",
+				"description":"Protesting two gang rape incidents and alleged involvement of ruling party leaders, opposition parties on Friday hit the streets of Agartala and organized rallies after rallies.",
+	            "imageName":"T291020221.jpg",
+                "publishedAt":"Agartala, October 29, 2022",
+                "content":"<p>Protesting two gang rape incidents and alleged involvement of ruling party leaders, opposition parties on Friday hit the streets of Agartala and organized rallies after rallies.</p><p>On Friday afternoon addressing a press conference at Congress Bhavan senior Congress leader and MLA Sudip Roy Barman strongly castigated the state government over alleged lawlessness and claimed that anarchy prevails across the state.</p><p>Condemning the rule of state government and its police administration for proving safeguards to some ruling party leaders and a son of a minister, who were allegedly involved in two spate gang rape incidents held at Kumarghat and Kalyanpur, Sudip said that there are no rules of law and police are acting as political agent of ruling BJP.</p><p>While, in continuation of protest demonstration over two gang rape incidents, the activists of Tripura Pradesh Mahila Congress staged a demonstration in front of the office complex of Tripura Commission for Women (TCW) and engaged scuffle with on duty women police personnel. They finally entered the office complex and staged a demonstration.</p><p>Trinamool Congress (TMC) also organized a protest rally in the city led by party’s Rajya Sabha MP Sushmita Dev and state in-charge Rajib Banerjee demanding immediate police action.</p><p>Addressing another press meet in the city, Tripura state committee of All India Kisan Sabha (AIKS) has also condemned the rule of government over two gang rape incidents. AIKS leader Pabitra Kar speaking with the media said that the law and order situation of the state has totally collapsed and panic prevails across the state over miscreants’ activities.</p>"
+				},
+				{
+                "id":"T291020222",               
+                "category":"NEH",
+                "author":"Our Correspondent",
+                "title":"38 NDPS act cases, 54 smugglers arrested in a month, police",
+				"description":" In continuation of its drive against drug menaces and its trafficking, the state police in significant development have arrested 38 NDPS Act cases and arrested 54 persons within the span of last one month.",
+	            "imageName":"T291020222.jpg",
+                "publishedAt":"Agartala, October 29, 2022",
+                "content":"<p>In continuation of its drive against drug menaces and its trafficking, the state police in significant development have arrested 38 NDPS Act cases and arrested 54 persons within the span of last one month.</p><p>Addressing a press conference at police headquarters on Friday evening to highlight the achievements of state police, AIGP (Police Control) Jyotishman Das Chowdhury accompanied by AIGP(TSR) Subrata Chakraborty expressed their gratitude towards the people of Tripura  for peaceful celebration of Durga Puja and Diwali festivals.</p><p>Das Chowdhury said that due to sincere efforts made by the state police, the property offenses have drastically come down and during the last three months, police have arrested over 95 property offenders  and the drive against thieves and property offenders has also been continuing.</p><p>He said that during a special anti-narcotics drive, police have seized 2245 kilograms of dry cannabis, 256 grams of Heroin, 1911 bottles of contraband cough syrup and 2464 Yaba tablets. Police said that during the last conference on drug trafficking and National Security held at Guwahati, the Union Home Minister Amit Shah appreciated the efforts of state police for prevention of drug trafficking.</p><p>They said that a total of 380 awareness camps were organized under the banner of ‘Prayaas’ across the state to enhance community policing along with other civic action programmes.</p><p>Through , the special drive against helmetless driving, illegal parking, over speeding and violation of the traffic rules, over Rs. 60 lakh was realized as fine money under various sections of MV Act in the current month. Moreover, traffic enforcement has continued to prevent drunk driving, over speeding, fatal accidents and other traffic violations.</p>"
+				},
+				  {
+                "id":"T291020223",               
+                "category":"NEH",
+                "author":"Our Correspondent",
+                "title":"Investigation going on, law will take its own course, minister Bhagaban Das",
+				"description":"Amidst statewide political tension and allegation with counter allegation issuing gang rape incident of Kumarghat and alleged involvement of a son of state’s minister, the minister Bhagaban Das himself said that investigation is going and everything will be cleared.",
+	            "imageName":"T291020223.jpg",
+                "publishedAt":"Agartala, October 29, 2022",
+                "content":"<p>Amidst statewide political tension and allegation with counter allegation issuing gang rape incident of Kumarghat and alleged involvement of a son of state’s minister, the minister Bhagaban Das himself said that investigation is going and everything will be cleared.</p><p>During a press meet held at Civil Secretariat on Friday evening to highlight the achievements of Scheduled Caste (SC) Welfare department, the minister of the department Bhagaban Das replying media quaries over allegations made by opposition parties over alleged involvement of his son in the gang rape on a minor girl held on October 21st night, the Minister said that he was aware of the police campaign organizing by opposition parties.</p><p>&quotOur party has made a statement over the issue and state police have also released a press statement over the issue,&quot said Das and added that investigation is going on and everything will be cleared.</p><p>Hinting the  propaganda politics of opposition parties, Das narrates a proverb “Hati Chale Bazar, Kutta Bhoke Hazar '' <b>(Elephant goes to the market; Thousands of dogs bark)</b>.</p>"
+				},
+				  {
                 "id":"T281020221",               
                 "category":"NEH",
                 "author":"Our Correspondent",

@@ -1913,12 +1913,66 @@
         "imagegallery":[
             {
 
+                "url":"/G30102022/1",
+                "path":"images/gallery/G30102022/1",
+                "imageName":"Image1.jpg",
+                "title":"",
+                "caption":"Glimpses of Chhath Puja celebration in Ranir Pukur area of Agartala on October 30.",
+                "status":"active"
+            },
+            {
+
+                "url":"/G30102022/6",
+                "path":"images/gallery/G30102022/6",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Youth and Student arms of opposition CPIM hold joint press briefing at Chatra Juba Bhavan on October 29",
+                "status":""
+            },
+            {
+
+                "url":"/G30102022/5",
+                "path":"images/gallery/G30102022/5",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Tripura Youth Congress President Rakhu Das holds a protest rally in front of Chief Minister Dr Manik Saha's residence on October 29",
+                "status":""
+            },
+            {
+
+                "url":"/G30102022/4",
+                "path":"images/gallery/G30102022/4",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"BJP hold press briefing at BJP Office on Oct 29",
+                "status":""
+            },
+            {
+
+                "url":"/G30102022/3",
+                "path":"images/gallery/G30102022/3",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"Amra Banglai Mohila Somaj holds demonstration in front of their party office against the alleged rise in atrocities against women in the state on October 29",
+                "status":""
+            },
+            {
+
+                "url":"/G30102022/2",
+                "path":"images/gallery/G30102022/2",
+                "imageName":"Image1.JPG",
+                "title":"",
+                "caption":"10,323 Hunger Strike Till Death enters 10th consecutive day, the protest continues for reinstatement in service at Orient Chowmuhani on October 29",
+                "status":""
+            },           
+            {
+
                 "url":"/G27102022/aidwa",
                 "path":"images/gallery/G27102022/aidwa",
                 "imageName":"Image1.jpg",
                 "title":"",
                 "caption":"AIDWA initiates donation collection drive ahead of State Conference at Agartala on October 27",
-                "status":"active"
+                "status":""
             },
             {
 

@@ -29,6 +29,15 @@ hbs.handlebars.registerHelper("latestnews", function(context, options) {
   
     return ret ;
   });
+
+hbs.handlebars.registerHelper('ifcontains', function(arg1, arg2, options) {
+    return (arg2.indexOf(arg1)>-1) ? options.fn(this) : options.inverse(this);
+});
+
+hbs.handlebars.registerHelper('ifNotcontains', function(arg1, arg2, options) {
+  return (arg2.indexOf(arg1)<=-1) ? options.fn(this) : options.inverse(this);
+});
+
   hbs.handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
     return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
 });

@@ -15,11 +15,16 @@
                       <div class="row cursor-pointer"  onclick="window.location.href = '/news?category={{../category}}&id={{this.id}}'">
                         <div class="col-sm-4 grid-margin">
                           <div class="rotate-img">
+                              {{#ifcontains  "https"  this.imageName  }}
+                   <img src="{{this.imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  this.imageName  }}
                             <img
                               src="images/news/{{../category}}/{{this.imageName}}"
                               alt="banner"
                               class="img-fluid"
                             />
+                            {{/ifNotcontains}} 
                           </div>
                         </div>
                         <div class="col-sm-8 grid-margin">
@@ -30,7 +35,7 @@
                             <span class="me-2">{{category}} </span>{{publishedAt}}
                           </p>
                           <p class="fs-15">
-                           {{this.description}}
+                           {{{this.description}}}
                           </p>
                         </div>
                       </div>

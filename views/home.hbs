@@ -86,7 +86,7 @@
                 <span class="me-2">{{category}}</span>{{publishedAt}}
               </div>
               <p class="mb-0 a-black">
-                {{description}}
+                {{{description}}}
               </p>
             </div>
           </div>
@@ -119,7 +119,12 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                   {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/national/{{imageName}}" alt="thumb" class="img-fluid" />
+                {{/ifNotcontains}} 
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">National News</span>
@@ -134,7 +139,7 @@
                 <span class="me-2">{{category}}</span>{{publishedAt}}
               </div>
               <p class="mb-0 a-black">
-                {{description}}
+                {{{description}}}
               </p>
             </div>
           </div>
@@ -168,7 +173,12 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">             
                 <div class="rotate-img">
+                     {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
                   <img  src="images/news/politics/{{imageName}}" alt="thumb" class="img-fluid" />
+                  {{/ifNotcontains}} 
                 </div>
                
                 <div class="badge-positioned">
@@ -185,7 +195,7 @@
                 <span class="me-2">{{category}}</span>{{publishedAt}}
               </div>
               <p class="mb-0 a-black">
-                {{description}}
+                {{{description}}}
               </p>
             </div>
           </div>
@@ -218,7 +228,12 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                      {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/sports/{{imageName}}" alt="thumb" class="img-fluid" />
+                  {{/ifNotcontains}} 
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Sports News</span>
@@ -233,7 +248,7 @@
                 <span class="me-2">{{category}}</span>{{publishedAt}}
               </div>
               <p class="mb-0 a-black">
-                {{description}}
+                {{{description}}}
               </p>
             </div>
           </div>
@@ -266,7 +281,12 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                    {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/entertainment/{{imageName}}" alt="thumb" class="img-fluid" />
+                  {{/ifNotcontains}} 
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Entertainment News</span>
@@ -281,7 +301,7 @@
                 <span class="me-2">{{category}}</span>{{publishedAt}}
               </div>
               <p class="mb-0 a-black">
-                {{description}}
+                {{{description}}}
               </p>
             </div>
           </div>
@@ -314,7 +334,12 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                 {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/international/{{imageName}}" alt="thumb" class="img-fluid" />
+                  {{/ifNotcontains}} 
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">International News</span>
@@ -329,7 +354,7 @@
                 <span class="me-2">{{category}}</span>{{publishedAt}}
               </div>
               <p class="mb-0 a-black">
-                {{description}}
+                {{{description}}}
               </p>
             </div>
           </div>
@@ -362,7 +387,12 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                    {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/{{imageName}}" alt="thumb" class="img-fluid" />
+                  {{/ifNotcontains}} 
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Region News</span>
@@ -377,7 +407,7 @@
                 <span class="me-2">{{category}}</span>{{publishedAt}}
               </div>
               <p class="mb-0 a-black">
-                {{description}}
+                {{{description}}}
               </p>
             </div>
           </div>
@@ -410,7 +440,12 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                   {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/{{imageName}}" alt="thumb" class="img-fluid" />
+                  {{/ifNotcontains}} 
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Tourism News</span>
@@ -425,7 +460,7 @@
                 <span class="me-2">{{category}}</span>{{publishedAt}}
               </div>
               <p class="mb-0 a-black">
-                {{description}}
+                {{{description}}}
               </p>
             </div>
           </div>

@@ -48,7 +48,12 @@
             </div>
           </div>
           <div class="rotate-img latest-news-home cursor-pointer" onclick="window.location.href = '/news?category={{newsCategory}}&id={{id}}'">
+           {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
             <img src="images/news/{{newsCategory}}/{{imageName}}" alt="thumb" class="img-fluid img-lg" />
+          {{/ifNotcontains}}
           </div>
           {{/latestnews}}
         </div>

@@ -8,7 +8,7 @@ var base_path = __basedir
 
 let url = "https://www.indiablooms.com/news/feeds.json";
 function scheduler () {
-  schedule.scheduleJob('*/1 * * * *', LoadNewsData)
+  schedule.scheduleJob('* */1 * * *', LoadNewsData)
 }
 
 function LoadNewsData () {

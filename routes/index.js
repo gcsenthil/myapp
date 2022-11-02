@@ -6,6 +6,7 @@ var base_path = __basedir
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  console.log(base_path)
   var latestnews=[];
   var newsdata= require(base_path +'/data/news.json')  
 

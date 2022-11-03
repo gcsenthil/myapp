@@ -48,12 +48,17 @@
             </div>
           </div>
           <div class="rotate-img latest-news-home cursor-pointer" onclick="window.location.href = '/news?category={{newsCategory}}&id={{id}}'">
+          {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid img-lg"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
            {{#ifcontains  "https"  imageName  }}
                    <img src="{{imageName}}" alt="image"  class="img-fluid img-lg"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
             <img src="images/news/{{newsCategory}}/{{imageName}}" alt="thumb" class="img-fluid img-lg" />
           {{/ifNotcontains}}
+          {{/ifNotEquals}}
           </div>
           {{/latestnews}}
         </div>
@@ -124,12 +129,17 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                  {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
                    {{#ifcontains  "https"  imageName  }}
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                  <img src="images/news/national/{{imageName}}" alt="thumb" class="img-fluid" />
-                {{/ifNotcontains}} 
+                     <img src="images/news/national/{{imageName}}" alt="thumb" class="img-fluid" />
+                   {{/ifNotcontains}} 
+                 {{/ifNotEquals}} 
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">National News</span>
@@ -178,12 +188,17 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">             
                 <div class="rotate-img">
+                   {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
                      {{#ifcontains  "https"  imageName  }}
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
                   <img  src="images/news/politics/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
+                       {{/ifNotEquals}}
                 </div>
                
                 <div class="badge-positioned">
@@ -233,12 +248,17 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                    {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
                       {{#ifcontains  "https"  imageName  }}
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/sports/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
+                  {{/ifNotEquals}}
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Sports News</span>
@@ -286,12 +306,17 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                    {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
                     {{#ifcontains  "https"  imageName  }}
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/entertainment/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
+                  {{/ifNotEquals}}
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Entertainment News</span>
@@ -339,12 +364,17 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                   {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
                  {{#ifcontains  "https"  imageName  }}
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/international/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
+                  {{/ifNotEquals}}
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">International News</span>
@@ -392,12 +422,17 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                     {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
                     {{#ifcontains  "https"  imageName  }}
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
+                  {{/ifNotEquals}}
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Region News</span>
@@ -445,12 +480,17 @@
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
+                     {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
                    {{#ifcontains  "https"  imageName  }}
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
                   <img src="images/news/{{imageName}}" alt="thumb" class="img-fluid" />
-                  {{/ifNotcontains}} 
+                  {{/ifNotcontains}}
+                  {{/ifNotEquals}}
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Tourism News</span>
@@ -684,68 +724,49 @@
                 Spot light
               </div>
               <div class="row">
-                <div class="col-xl-6 col-lg-8 col-sm-6">
+                 {{#list health}}
+                <div class="col-xl-6 col-lg-8 col-sm-6" onclick="window.location.href = '/news?category=health&id={{id}}'">
                   <div class="rotate-img">
-                    <img src="/images/dashboard/home_16.jpg" alt="thumb" class="img-fluid" />
+                        {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
+                   {{#ifcontains  "https"  imageName  }}
+                   <img src="{{imageName}}" alt="image"  class="img-fluid"/>
+                  {{/ifcontains}}
+                   {{#ifNotcontains  "https"  imageName  }}
+                  <img src="images/news/health/{{imageName}}" alt="thumb" class="img-fluid" />
+                  {{/ifNotcontains}}
+                  {{/ifNotEquals}}
+                 
                   </div>
                   <h2 class="mt-3 text-primary mb-2">
-                    Newsrooms exercise..
+                  {{title}}
                   </h2>
                   <p class="fs-13 mb-1 text-muted">
-                    <span class="me-2">Photo </span>10 Minutes ago
+                    <span class="me-2">{{category}}</span>{{publishedAt}}
                   </p>
                   <p class="my-3 fs-15">
-                    Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer
-                    took
+                  {{{description}}}
                   </p>
                   <a href="#" class="font-weight-600 fs-15 text-dark">Read more</a>
                 </div>
+                {{/list}}
                 <div class="col-xl-6 col-lg-4 col-sm-6">
-                  <div class="border-bottom pb-3 mb-3">
-                    <h3 class="font-weight-600 mb-0">
-                      Social distancing is ..
+                  {{#list healthdesc}}
+                  <div class="border-bottom pb-3 mb-3" onclick="window.location.href = '/news?category=health&id={{id}}'">
+                    <h3 class="font-weight-600 mb-0  text-truncate">
+                      {{title}}
                     </h3>
                     <p class="fs-13 text-muted mb-0">
-                      <span class="me-2">Photo </span>10 Minutes ago
+                      <span class="me-2">{{category}} </span>{{publishedAt}}
                     </p>
-                    <p class="mb-0">
-                      Lorem Ipsum has been the industry's
-                    </p>
-                  </div>
-                  <div class="border-bottom pb-3 mb-3">
-                    <h3 class="font-weight-600 mb-0">
-                      Panic buying is forcing..
-                    </h3>
-                    <p class="fs-13 text-muted mb-0">
-                      <span class="me-2">Photo </span>10 Minutes ago
-                    </p>
-                    <p class="mb-0">
-                      Lorem Ipsum has been the industry's
+                    <p class="mb-0 text-truncate" >
+                      {{description}}
                     </p>
                   </div>
-                  <div class="border-bottom pb-3 mb-3">
-                    <h3 class="font-weight-600 mb-0">
-                      Businesses ask hundreds..
-                    </h3>
-                    <p class="fs-13 text-muted mb-0">
-                      <span class="me-2">Photo </span>10 Minutes ago
-                    </p>
-                    <p class="mb-0">
-                      Lorem Ipsum has been the industry's
-                    </p>
-                  </div>
-                  <div>
-                    <h3 class="font-weight-600 mb-0">
-                      Tesla's California factory..
-                    </h3>
-                    <p class="fs-13 text-muted mb-0">
-                      <span class="me-2">Photo </span>10 Minutes ago
-                    </p>
-                    <p class="mb-0">
-                      Lorem Ipsum has been the industry's
-                    </p>
-                  </div>
+                  {{/list}}
+                  
                 </div>
               </div>
             </div>

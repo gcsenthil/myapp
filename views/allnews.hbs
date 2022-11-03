@@ -15,6 +15,10 @@
                       <div class="row cursor-pointer"  onclick="window.location.href = '/news?category={{../category}}&id={{this.id}}'">
                         <div class="col-sm-4 grid-margin">
                           <div class="rotate-img">
+                              {{#ifEquals imageName ""}}
+                  <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals imageName ""}}
                               {{#ifcontains  "https"  this.imageName  }}
                    <img src="{{this.imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
@@ -25,6 +29,7 @@
                               class="img-fluid"
                             />
                             {{/ifNotcontains}} 
+                            {{/ifNotEquals}}
                           </div>
                         </div>
                         <div class="col-sm-8 grid-margin">

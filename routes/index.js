@@ -26,6 +26,8 @@ router.get('/', function(req, res, next) {
        latestnews.push(news);        
     } 
  
+
+   
   res.render('home',{
   pageTitleDesc:"Northeast India's premier news, views website.",
   pageTitle:"Home",
@@ -40,6 +42,8 @@ router.get('/', function(req, res, next) {
   international:newsdata.news.international.slice(0,3),
   region:newsdata.news.region.slice(0,3),
   tourism:newsdata.news.tourism.slice(0,3),
+  health:newsdata.news.health.slice(0,1),
+  healthdesc:newsdata.news.health.slice(1,5),
   entertainment:newsdata.news.entertainment.slice(0,3),
   imggallery:newsdata.news.imagegallery.slice(0,10)
   });

@@ -8,7 +8,7 @@ var base_path = __basedir
 
 let url = "https://www.indiablooms.com/news/feeds.json";
 function scheduler () {
-  schedule.scheduleJob('* */1 * * *', LoadNewsData)
+  schedule.scheduleJob('*/5 * * * *', LoadNewsData)
 }
 
 function LoadNewsData () {
@@ -18,6 +18,7 @@ function LoadNewsData () {
     .then((json) => {
        var flag=false
     //politics
+    if(json.news.news!=null){
       for(var i=0;i<json.news.news.length;i++)
       {       
         var selected=newsdata.news.politics.filter(it => it.id === json.news.news[i].id);        
@@ -29,6 +30,9 @@ function LoadNewsData () {
             flag=true       
         }        
       }
+    }
+
+    if(json.news.sports!=null){
       //Sports
       for(var i=0;i<json.news.sports.length;i++)
       {       
@@ -40,6 +44,9 @@ function LoadNewsData () {
             flag=true
         }        
       }
+    }
+
+    if(json.news.showbiz!=null){
         //entertainment
         for(var i=0;i<json.news.showbiz.length;i++)
         {       
@@ -51,6 +58,9 @@ function LoadNewsData () {
               flag=true
           }        
         }
+      }
+
+      if(json.news.world != null){
 
          //international
          for(var i=0;i<json.news.world.length;i++)
@@ -63,7 +73,9 @@ function LoadNewsData () {
                flag=true
            }        
          }
+        }
 
+        if(json.news.finance!=null){
           //national
           for(var i=0;i<json.news.finance.length;i++)
           {       
@@ -75,6 +87,22 @@ function LoadNewsData () {
                 flag=true
             }        
           }
+        }
+
+        if(json.news.health!=null){
+          //national
+          for(var i=0;i<json.news.health.length;i++)
+          {       
+            var selected=newsdata.news.health.filter(it => it.id === json.news.health[i].id);        
+            if(selected != null && selected.length>0){
+            }
+            else{                      
+                newsdata.news.health.splice(0, 0,(json.news.health[i]));          
+                flag=true
+            }        
+          }
+        }
+
 
       if(flag){
         fs.writeFileSync(base_path +'/data/news.json', JSON.stringify( newsdata));

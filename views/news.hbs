@@ -10,13 +10,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-10 img">
+                    {{#ifEquals data.imageName ""}}
+                  <img src="https://via.placeholder.com/600x300.png?text=No Image" alt="noImage"/>
+                   {{/ifEquals}} 
+                   {{#ifNotEquals data.imageName ""}}
                   {{#ifcontains  "https"  data.imageName  }}
                    <img src="{{data.imageName}}" alt="image" />
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  data.imageName  }}
                    <img src="images/news/{{category}}/{{data.imageName}}" alt="image"/>
                   {{/ifNotcontains}}                  
-                 
+                 {{/ifNotEquals}}
                   <p class="fs-13 text-muted mb-0">{{data.category}} Report</p>
                 </div>
                 <div class="col-lg-2"> 

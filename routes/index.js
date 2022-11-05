@@ -31,6 +31,7 @@ router.get('/', function(req, res, next) {
   res.render('home',{
   pageTitleDesc:"Northeast India's premier news, views website.",
   pageTitle:"Home",
+  
   metaDesc:"Northeast Herald starts its journey from Tripura state capital city Agartala to cover the entire Northeast region of India for the latest news, news photos, and the latest photos to promote the great cultural, historical and traditional identity of the region.",
   allnews:newsdata.news.all,
   latestnews:latestnews.slice(0,3),

@@ -741,7 +741,7 @@
                  
                   </div>
                   <h2 class="mt-3 text-primary mb-2">
-                  {{title}}
+                  {{{title}}}
                   </h2>
                   <p class="fs-13 mb-1 text-muted">
                     <span class="me-2">{{category}}</span>{{publishedAt}}
@@ -756,13 +756,13 @@
                   {{#list healthdesc}}
                   <div class="border-bottom pb-3 mb-3" onclick="window.location.href = '/news?category=health&id={{id}}'">
                     <h3 class="font-weight-600 mb-0  text-truncate">
-                      {{title}}
+                      {{{title}}}
                     </h3>
                     <p class="fs-13 text-muted mb-0">
                       <span class="me-2">{{category}} </span>{{publishedAt}}
                     </p>
-                    <p class="mb-0 text-truncate" >
-                      {{description}}
+                    <p class="mb-0 text-truncate" style="widt:100px" >
+                      {{{description}}}
                     </p>
                   </div>
                   {{/list}}

@@ -47,6 +47,8 @@ hbs.handlebars.registerHelper('ifNotEquals', function(arg1, arg2, options) {
   hbs.handlebars.registerHelper('check', function(value, comparator) {
     return (value === comparator) ? 'No content' : value;
 });
+
+
 hbs.handlebars.registerHelper('eachData', function(context, options) {
     var fn = options.fn, inverse = options.inverse, ctx;
     var ret = "";

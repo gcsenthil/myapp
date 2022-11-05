@@ -43,7 +43,7 @@ router.get('/', function(req, res, next) {
   region:newsdata.news.region.slice(0,3),
   tourism:newsdata.news.tourism.slice(0,3),
   health:newsdata.news.health.slice(0,1),
-  healthdesc:newsdata.news.health.slice(1,5),
+  healthdesc:newsdata.news.health.slice(1,3),
   entertainment:newsdata.news.entertainment.slice(0,3),
   imggallery:newsdata.news.imagegallery.slice(0,10)
   });

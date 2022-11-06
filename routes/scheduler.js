@@ -21,11 +21,11 @@ function LoadNewsData () {
     if(json.news.news!=null){
       for(var i=0;i<json.news.news.length;i++)
       {       
-        var selected=newsdata.news.politics.filter(it => it.id === json.news.news[i].id && json.news.news[i].content != "");        
+        var selected=newsdata.news.politics.filter(it => it.id === json.news.news[i].id && json.news.news[i].content.length>0);        
         if(selected != null && selected.length>0){
         }
         else{
-            console.log(json.news.news[i])           
+          //  console.log(json.news.news[i])           
             newsdata.news.politics.splice(0, 0,(json.news.news[i]));   
             flag=true       
         }        
@@ -36,7 +36,7 @@ function LoadNewsData () {
       //Sports
       for(var i=0;i<json.news.sports.length;i++)
       {       
-        var selected=newsdata.news.sports.filter(it => it.id === json.news.sports[i].id && json.news.news[i].content != "");        
+        var selected=newsdata.news.sports.filter(it => it.id === json.news.sports[i].id && json.news.sports[i].content.length>0);        
         if(selected != null && selected.length>0){
         }
         else{                
@@ -50,7 +50,7 @@ function LoadNewsData () {
         //entertainment
         for(var i=0;i<json.news.showbiz.length;i++)
         {       
-          var selected=newsdata.news.entertainment.filter(it => it.id === json.news.showbiz[i].id && json.news.news[i].content != "");        
+          var selected=newsdata.news.entertainment.filter(it => it.id === json.news.showbiz[i].id && json.news.showbiz[i].content.length>0);        
           if(selected != null && selected.length>0){
           }
           else{                      
@@ -65,7 +65,7 @@ function LoadNewsData () {
          //international
          for(var i=0;i<json.news.world.length;i++)
          {       
-           var selected=newsdata.news.international.filter(it => it.id === json.news.world[i].id && json.news.news[i].content != "");        
+           var selected=newsdata.news.international.filter(it => it.id === json.news.world[i].id && json.news.world[i].content.length>0);        
            if(selected != null && selected.length>0){
            }
            else{                      
@@ -79,7 +79,7 @@ function LoadNewsData () {
           //national
           for(var i=0;i<json.news.finance.length;i++)
           {       
-            var selected=newsdata.news.national.filter(it => it.id === json.news.finance[i].id && json.news.news[i].content != "");        
+            var selected=newsdata.news.national.filter(it => it.id === json.news.finance[i].id && json.news.finance[i].content.length>0);        
             if(selected != null && selected.length>0){
             }
             else{                      
@@ -93,7 +93,7 @@ function LoadNewsData () {
           //national
           for(var i=0;i<json.news.health.length;i++)
           {       
-            var selected=newsdata.news.health.filter(it => it.id === json.news.health[i].id && json.news.news[i].content != "");        
+            var selected=newsdata.news.health.filter(it => it.id === json.news.health[i].id && json.news.health[i].content.length>0);        
             if(selected != null && selected.length>0){
             }
             else{                      

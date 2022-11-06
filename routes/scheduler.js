@@ -20,8 +20,11 @@ function LoadNewsData () {
     //politics
     if(json.news.news!=null){
       for(var i=0;i<json.news.news.length;i++)
-      {       
-        var selected=newsdata.news.politics.filter(it => it.id === json.news.news[i].id && json.news.news[i].content.length>0);        
+      {     
+        if(json.news.news[i].content.length>10){  
+        var selected=newsdata.news.politics.filter(it =>
+           it.id === json.news.news[i].id 
+          );        
         if(selected != null && selected.length>0){
         }
         else{
@@ -30,19 +33,24 @@ function LoadNewsData () {
             flag=true       
         }        
       }
+      }
     }
 
     if(json.news.sports!=null){
       //Sports
       for(var i=0;i<json.news.sports.length;i++)
-      {       
-        var selected=newsdata.news.sports.filter(it => it.id === json.news.sports[i].id && json.news.sports[i].content.length>0);        
+      {   
+        if(json.news.sports[i].content.length>10){    
+        var selected=newsdata.news.sports.filter(it =>
+           it.id === json.news.sports[i].id 
+          );        
         if(selected != null && selected.length>0){
         }
         else{                
             newsdata.news.sports.splice(0, 0,(json.news.sports[i]));          
             flag=true
-        }        
+        }  
+      }      
       }
     }
 
@@ -50,13 +58,17 @@ function LoadNewsData () {
         //entertainment
         for(var i=0;i<json.news.showbiz.length;i++)
         {       
-          var selected=newsdata.news.entertainment.filter(it => it.id === json.news.showbiz[i].id && json.news.showbiz[i].content.length>0);        
+          if(json.news.showbiz[i].content.length>10){
+          var selected=newsdata.news.entertainment.filter(it =>
+             it.id === json.news.showbiz[i].id 
+             );        
           if(selected != null && selected.length>0){
           }
           else{                      
               newsdata.news.entertainment.splice(0, 0,(json.news.showbiz[i]));          
               flag=true
-          }        
+          }   
+        }     
         }
       }
 
@@ -65,21 +77,28 @@ function LoadNewsData () {
          //international
          for(var i=0;i<json.news.world.length;i++)
          {       
-           var selected=newsdata.news.international.filter(it => it.id === json.news.world[i].id && json.news.world[i].content.length>0);        
+          if(json.news.world[i].content.length>10){
+           var selected=newsdata.news.international.filter(it => 
+            it.id === json.news.world[i].id 
+            );        
            if(selected != null && selected.length>0){
            }
            else{                      
                newsdata.news.international.splice(0, 0,(json.news.world[i]));          
                flag=true
            }        
+          }
          }
         }
 
         if(json.news.finance!=null){
           //national
           for(var i=0;i<json.news.finance.length;i++)
-          {       
-            var selected=newsdata.news.national.filter(it => it.id === json.news.finance[i].id && json.news.finance[i].content.length>0);        
+          {   
+            if(json.news.finance[i].content.length>10 ){  
+            var selected=newsdata.news.national.filter(it => 
+              it.id === json.news.finance[i].id 
+             );        
             if(selected != null && selected.length>0){
             }
             else{                      
@@ -87,13 +106,17 @@ function LoadNewsData () {
                 flag=true
             }        
           }
+          }
         }
 
         if(json.news.health!=null){
           //national
           for(var i=0;i<json.news.health.length;i++)
-          {       
-            var selected=newsdata.news.health.filter(it => it.id === json.news.health[i].id && json.news.health[i].content.length>0);        
+          {      
+            if(json.news.health[i].content.length>10){ 
+            var selected=newsdata.news.health.filter(it => 
+              it.id === json.news.health[i].id 
+               );        
             if(selected != null && selected.length>0){
             }
             else{                      
@@ -101,7 +124,9 @@ function LoadNewsData () {
                 flag=true
             }        
           }
+          }
         }
+
 
 
       if(flag){

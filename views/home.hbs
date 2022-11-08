@@ -17,8 +17,8 @@
   <div class="row" data-aos="fade-up">
     <div class="col-xl-8 stretch-card grid-margin">
       {{#list global}}
-      <div class="position-relative" onclick="window.location.href = '/allnews?category=global'">
-        <img  src="images/news/global/{{imageName}}" alt="banner" class="img-fluid" />
+      <div class="position-relative" onclick="window.location.href = '/allnews/global'">
+        <img  src="/images/news/global/{{imageName}}" alt="banner" class="img-fluid" />
         <div class="banner-content">
           <div class="overlay">
           <!--  <div class="badge badge-danger fs-12 font-weight-bold mb-3">
@@ -41,13 +41,13 @@
         <div class="card-body">
           <h2>Latest news</h2>
           {{#latestnews latestnews}}
-          <div class="pe-3 news-a cursor-pointer" onclick="window.location.href = '/news?category={{newsCategory}}&id={{id}}'">
+          <div class="pe-3 news-a cursor-pointer" onclick="window.location.href = '/news/{{newsCategory}}/{{id}}'">
             <h5>{{title}}</h5>
             <div class="fs-12">
               <span class="me-2">{{category}}</span>{{publishedAt}}
             </div>
           </div>
-          <div class="rotate-img latest-news-home cursor-pointer" onclick="window.location.href = '/news?category={{newsCategory}}&id={{id}}'">
+          <div class="rotate-img latest-news-home cursor-pointer" onclick="window.location.href = '/news/{{newsCategory}}/{{id}}'">
           {{#ifEquals imageName ""}}
                   <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid img-lg"/>
                    {{/ifEquals}} 
@@ -56,7 +56,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid img-lg"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-            <img src="images/news/{{newsCategory}}/{{imageName}}" alt="thumb" class="img-fluid img-lg" />
+            <img src="/images/news/{{newsCategory}}/{{imageName}}" alt="thumb" class="img-fluid img-lg" />
           {{/ifNotcontains}}
           {{/ifNotEquals}}
           </div>
@@ -73,15 +73,15 @@
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=tripura'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews/tripura'">
             Tripura News (View All)
           </div>
           {{#list tripuranews}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=tripura&id={{id}}'">
+          <div class="row cursor-pointer" onclick="window.location.href = '/news/tripura/{{id}}'">
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
-                  <img src="images/news/tripura/{{imageName}}" alt="thumb" class="img-fluid" />
+                  <img src="/images/news/tripura/{{imageName}}" alt="thumb" class="img-fluid" />
                 </div>
                 <div class="badge-positioned">
                   <span class="badge badge-danger font-weight-bold">Tripura News</span>
@@ -121,11 +121,11 @@
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=national'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews/national'">
             National News (View All)
           </div>
           {{#list national}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=national&id={{id}}'">
+          <div class="row cursor-pointer" onclick="window.location.href = '/news/national/{{id}}'">
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
@@ -137,7 +137,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                     <img src="images/news/national/{{imageName}}" alt="thumb" class="img-fluid" />
+                     <img src="/images/news/national/{{imageName}}" alt="thumb" class="img-fluid" />
                    {{/ifNotcontains}} 
                  {{/ifNotEquals}} 
                 </div>
@@ -179,11 +179,11 @@
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=politics'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews/politics'">
             Politics News (View All)
           </div>
           {{#list politics}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=politics&id={{id}}'">
+          <div class="row cursor-pointer" onclick="window.location.href = '/news/politics/{{id}}'">
          
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">             
@@ -196,7 +196,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                  <img  src="images/news/politics/{{imageName}}" alt="thumb" class="img-fluid" />
+                  <img  src="/images/news/politics/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
                        {{/ifNotEquals}}
                 </div>
@@ -240,11 +240,11 @@
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=sports'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews/sports'">
             Sports News (View All)
           </div>
           {{#list sports}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=sports&id={{id}}'">
+          <div class="row cursor-pointer" onclick="window.location.href = '/news/sports/{{id}}'">
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
@@ -256,7 +256,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                  <img src="images/news/sports/{{imageName}}" alt="thumb" class="img-fluid" />
+                  <img src="/images/news/sports/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
                   {{/ifNotEquals}}
                 </div>
@@ -298,11 +298,11 @@
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=entertainment'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews/entertainment'">
             Entertainment News (View All)
           </div>
           {{#list entertainment}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=entertainment&id={{id}}'">
+          <div class="row cursor-pointer" onclick="window.location.href = '/news/entertainment/{{id}}'">
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
@@ -314,7 +314,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                  <img src="images/news/entertainment/{{imageName}}" alt="thumb" class="img-fluid" />
+                  <img src="/images/news/entertainment/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
                   {{/ifNotEquals}}
                 </div>
@@ -356,11 +356,11 @@
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=international'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews/international'">
             International News (View All)
           </div>
           {{#list international}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?category=international&id={{id}}'">
+          <div class="row cursor-pointer" onclick="window.location.href = '/news/international/{{id}}'">
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
@@ -372,7 +372,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                  <img src="images/news/international/{{imageName}}" alt="thumb" class="img-fluid" />
+                  <img src="/images/news/international/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
                   {{/ifNotEquals}}
                 </div>
@@ -414,11 +414,11 @@
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=region'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews/region'">
             Region News (View All)
           </div>
           {{#list region}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?region=region&id={{id}}'">
+          <div class="row cursor-pointer" onclick="window.location.href = '/news/region/{{id}}'">
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
@@ -430,7 +430,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                  <img src="images/news/{{imageName}}" alt="thumb" class="img-fluid" />
+                  <img src="/images/news/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}} 
                   {{/ifNotEquals}}
                 </div>
@@ -472,11 +472,11 @@
     <div class="col-lg-9 stretch-card grid-margin">
       <div class="card">
         <div class="card-body">
-          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews?category=tourism'">
+          <div class="card-title cursor-pointer" onclick="window.location.href = '/allnews/tourism'">
             Tourism News (View All)
           </div>
           {{#list tourism}}
-          <div class="row cursor-pointer" onclick="window.location.href = '/news?region=tourism&id={{id}}'">
+          <div class="row cursor-pointer" onclick="window.location.href = '/news/tourism/{{id}}'">
             <div class="col-sm-4 grid-margin">
               <div class="position-relative">
                 <div class="rotate-img">
@@ -488,7 +488,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                  <img src="images/news/{{imageName}}" alt="thumb" class="img-fluid" />
+                  <img src="/images/news/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}}
                   {{/ifNotEquals}}
                 </div>
@@ -725,7 +725,7 @@
               </div>
               <div class="row">
                  {{#list health}}
-                <div class="col-xl-6 col-lg-8 col-sm-6" onclick="window.location.href = '/news?category=health&id={{id}}'">
+                <div class="col-xl-6 col-lg-8 col-sm-6" onclick="window.location.href = '/news/health/{{id}}'">
                   <div class="rotate-img">
                         {{#ifEquals imageName ""}}
                   <img src="https://via.placeholder.com/300x150.png?text=NoImage" alt="noImage" class="img-fluid"/>
@@ -735,7 +735,7 @@
                    <img src="{{imageName}}" alt="image"  class="img-fluid"/>
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  imageName  }}
-                  <img src="images/news/health/{{imageName}}" alt="thumb" class="img-fluid" />
+                  <img src="/images/news/health/{{imageName}}" alt="thumb" class="img-fluid" />
                   {{/ifNotcontains}}
                   {{/ifNotEquals}}
                  
@@ -754,7 +754,7 @@
                 {{/list}}
                 <div class="col-xl-6 col-lg-4 col-sm-6">
                   {{#list healthdesc}}
-                  <div class="border-bottom pb-3 mb-3" onclick="window.location.href = '/news?category=health&id={{id}}'">
+                  <div class="border-bottom pb-3 mb-3" onclick="window.location.href = '/news/health/{{id}}'">
                     <h3 class="font-weight-600 mb-0  text-truncate">
                       {{{title}}}
                     </h3>

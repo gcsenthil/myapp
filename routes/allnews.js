@@ -3,10 +3,10 @@ var router = express.Router();
 var base_path = __basedir
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
+router.get('/:category', function(req, res, next) {
   console.log("allnews");
   var newsdata= require(base_path +'/data/news.json')   
-  var cat=req.query.category;
+  var cat=req.params.category;
   var selectedNews=[];
   selectedNews=newsdata.news[cat];
 

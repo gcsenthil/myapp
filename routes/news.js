@@ -3,12 +3,12 @@ var path = require('path');
 var router = express.Router();
 var base_path = __basedir
 
-router.get('/', function(req, res, next) {   
+router.get('/:category/:id', function(req, res, next) {   
     try {       
     var newsdata= require(base_path +'/data/news.json')    
     var selectednews;
-    var newsid=req.query.id
-    var cat=req.query.category
+    var newsid=req.params.id
+    var cat=req.params.category
     selectednews=newsdata.news[cat];
     
    

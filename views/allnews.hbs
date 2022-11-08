@@ -12,7 +12,7 @@
                   <div class="row">
                     <div class="col-lg-8">
                      {{#each allnews}}
-                      <div class="row cursor-pointer"  onclick="window.location.href = '/news?category={{../category}}&id={{this.id}}'">
+                      <div class="row cursor-pointer"  onclick="window.location.href = '/news/{{../category}}/{{this.id}}'">
                         <div class="col-sm-4 grid-margin">
                           <div class="rotate-img">
                               {{#ifEquals imageName ""}}
@@ -24,7 +24,7 @@
                   {{/ifcontains}}
                    {{#ifNotcontains  "https"  this.imageName  }}
                             <img
-                              src="images/news/{{../category}}/{{this.imageName}}"
+                              src="/images/news/{{../category}}/{{this.imageName}}"
                               alt="banner"
                               class="img-fluid"
                             />

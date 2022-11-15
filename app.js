@@ -16,7 +16,7 @@ var app = express();
 var newsdata= require(__basedir +'/data/news.json') 
 const scheduler = require('./routes/scheduler')
 
-//scheduler();
+scheduler();
 
 
 for(var i=0;i<newsdata.news.imagegallery.length;i++){

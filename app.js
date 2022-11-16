@@ -51,28 +51,28 @@ app.get('/sitemap.xml', function(req, res) {
     // pipe your entries or directly write them.
     smStream.write({ url: 'https://www.neherald.com/',  changefreq: 'daily', priority: 1 })
     for(i=0;i<newsdata.news.tripura.length;i++){  
-    smStream.write({ url: '/news?category=tripura&id='+newsdata.news.tripura[i].id,  changefreq: 'daily', priority: 0.3 })
+    smStream.write({ url: '/news/tripura/'+newsdata.news.tripura[i].id,  changefreq: 'daily', priority: 0.3 })
     }
     for(i=0;i<newsdata.news.sports.length;i++){  
-      smStream.write({ url: '/news?category=sports&id='+newsdata.news.sports[i].id,  changefreq: 'daily', priority: 0.3 })
+      smStream.write({ url: '/news/sports/'+newsdata.news.sports[i].id,  changefreq: 'daily', priority: 0.3 })
     }
     for(i=0;i<newsdata.news.national.length;i++){  
-      smStream.write({ url: '/news?category=national&id='+newsdata.news.national[i].id,  changefreq: 'daily', priority: 0.3 })
+      smStream.write({ url: '/news/national/'+newsdata.news.national[i].id,  changefreq: 'daily', priority: 0.3 })
     }
     for(i=0;i<newsdata.news.politics.length;i++){  
-      smStream.write({ url: '/news?category=politics&id='+newsdata.news.politics[i].id,  changefreq: 'daily', priority: 0.3 })
+      smStream.write({ url: '/news/politics/'+newsdata.news.politics[i].id,  changefreq: 'daily', priority: 0.3 })
     }
     for(i=0;i<newsdata.news.entertainment.length;i++){  
-      smStream.write({ url: '/news?category=entertainment&id='+newsdata.news.entertainment[i].id,  changefreq: 'daily', priority: 0.3 })
+      smStream.write({ url: '/news/entertainment/'+newsdata.news.entertainment[i].id,  changefreq: 'daily', priority: 0.3 })
     }
     for(i=0;i<newsdata.news.international.length;i++){  
-      smStream.write({ url: '/news?category=international&id='+newsdata.news.international[i].id,  changefreq: 'daily', priority: 0.3 })
+      smStream.write({ url: '/news/international/'+newsdata.news.international[i].id,  changefreq: 'daily', priority: 0.3 })
     }
     for(i=0;i<newsdata.news.region.length;i++){  
-      smStream.write({ url: '/news?category=region&id='+newsdata.news.region[i].id,  changefreq: 'daily', priority: 0.3 })
+      smStream.write({ url: '/news/region/'+newsdata.news.region[i].id,  changefreq: 'daily', priority: 0.3 })
     }
     for(i=0;i<newsdata.news.tourism.length;i++){  
-      smStream.write({ url: '/news?category=tourism&id='+newsdata.news.tourism[i].id,  changefreq: 'daily', priority: 0.3 })
+      smStream.write({ url: '/news/tourism/'+newsdata.news.tourism[i].id,  changefreq: 'daily', priority: 0.3 })
     }
 
 
